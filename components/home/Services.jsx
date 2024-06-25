@@ -47,7 +47,7 @@ export default function Services() {
               <h2 className="text-2xl text-neutral-50 font-bold uppercase">
                 {service.name}
               </h2>
-              <p className="text-neutral-50 md:w-[70%] text-center">
+              <p className="text-neutral-50 text-center">
                 {service.description}
               </p>
             </div>
