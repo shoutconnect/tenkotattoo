@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Heebo", "sans-serif"],
+        sans: ["Quicksand", "sans-serif"],
         title: ["Quicksand", "sans-serif"],
-        boldTitle: ["Quicksand", "sans-serif"],
+        header: ["Eldwin", "sans-serif"],
       },
     },
   },

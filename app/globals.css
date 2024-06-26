@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Eldwin";
+  src: url("/fonts/Eldwin.otf");
+}
+
 @layer base {
   body {
     @apply bg-neutral-50;
@@ -14,7 +19,7 @@
   h4,
   h5,
   h6 {
-    @apply tracking-tight text-neutral-900;
+    @apply font-header tracking-tight text-neutral-900;
   }
   h1 {
     @apply text-5xl max-md:text-4xl;
@@ -36,7 +41,7 @@
   }
   p,
   input {
-    @apply font-sans text-neutral-500 leading-8;
+    @apply font-sans font-normal text-neutral-500 leading-8;
   }
   ::selection {
     @apply text-white bg-[#ed028c];
@@ -61,6 +66,7 @@
   outline: none;
   scroll-behavior: smooth !important;
 }
+
 
 html {
   scroll-behavior: smooth !important;
