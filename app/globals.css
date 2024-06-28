@@ -41,10 +41,16 @@
   }
   p,
   input {
-    @apply font-sans font-normal text-neutral-500 leading-8;
+    @apply font-sans font-normal text-neutral-500 leading-[30px];
   }
   ::selection {
     @apply text-white bg-[#ed028c];
+  }
+  .bg-tenko {
+    @apply bg-[#ed028c];
+  }
+  .text-tenko {
+    @apply text-[#ed028c];
   }
   .absolute-center {
     @apply top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
@@ -66,7 +72,6 @@
   outline: none;
   scroll-behavior: smooth !important;
 }
-
 
 html {
   scroll-behavior: smooth !important;

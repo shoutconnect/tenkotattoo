@@ -46,7 +46,7 @@ export default function Footer() {
           </div>
           <div className="w-full flex max-sm:flex-wrap items-start justify-end max-sm:justify-start gap-10 max-sm:gap-x-0 max-sm:gap-y-10 max-md:justify-around">
             <div className="w-36 max-sm:w-1/2 max-sm:text-center">
-              <h3 className="uppercase font-bold tracking-wider text-sm  text-[#ed028c] my-transition">
+              <h3 className="uppercase font-bold tracking-wider text-sm  text-tenko my-transition">
                 Studio
               </h3>
               <ul role="list" className="mt-6 space-y-4">
@@ -63,7 +63,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="w-36 max-sm:w-1/2 max-sm:text-center">
-              <h3 className="uppercase font-bold tracking-wider text-sm  text-[#ed028c] my-transition">
+              <h3 className="uppercase font-bold tracking-wider text-sm  text-tenko my-transition">
                 Artists
               </h3>
               <ul role="list" className="mt-6 space-y-4">
@@ -80,7 +80,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="w-36 max-sm:w-1/2 max-sm:text-center">
-              <h3 className="uppercase font-bold tracking-wider text-sm  text-[#ed028c] my-transition">
+              <h3 className="uppercase font-bold tracking-wider text-sm  text-tenko my-transition">
                 Information
               </h3>
               <ul role="list" className="mt-6 space-y-4">
@@ -109,7 +109,7 @@ export default function Footer() {
                 key={item.name}
                 href={item.href}
                 target="_blank"
-                className="text-neutral-300 hover:text-[#ed028c] my-transition"
+                className="text-neutral-300 hover:text-tenko my-transition"
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />

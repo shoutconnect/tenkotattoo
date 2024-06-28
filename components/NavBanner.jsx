@@ -9,7 +9,7 @@ export default function NavBanner() {
   return (
     <>
       {show && (
-        <div className="relative z-50 group flex items-center gap-x-6 bg-[#ed028c] hover:bg-neutral-800 px-6 py-2.5 before:flex-1 my-transition">
+        <div className="relative z-50 group flex items-center gap-x-6 bg-tenko hover:bg-neutral-800 px-6 py-2.5 before:flex-1 my-transition">
           <a
             href="/contact"
             className="text-sm font-title uppercase font-bold tracking-wider text-neutral-100 my-transition"

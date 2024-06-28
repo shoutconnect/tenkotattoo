@@ -61,7 +61,7 @@ export default function Services() {
         alt="Services brush bg"
         width="900"
         height="800"
-        className="mt-10 absolute top-0 left-0 right-0 mx-auto w-[1300px] h-auto object-cover"
+        className="mt-10 absolute top-0 left-0 right-0 mx-auto w-auto h-[700px] object-cover"
         draggable="false"
       />{" "}
       <Image
@@ -69,7 +69,7 @@ export default function Services() {
         alt="Services brush bg"
         width="900"
         height="800"
-        className="mt-10 absolute top-0 left-0 right-0 mx-auto w-[1300px] h-auto object-cover"
+        className="mt-10 absolute top-0 left-0 right-0 mx-auto w-auto h-[700px] object-cover"
         draggable="false"
       />
       <Image
@@ -77,7 +77,15 @@ export default function Services() {
         alt="Services brush bg"
         width="900"
         height="800"
-        className="mt-10 absolute top-0 left-0 right-0 mx-auto w-[1400px] h-auto object-cover"
+        className="mt-10 absolute top-0 left-0 right-0 mx-auto w-auto h-[700px] object-cover"
+        draggable="false"
+      />
+      <Image
+        src="/Home Services Brush (2).svg"
+        alt="Services brush bg"
+        width="900"
+        height="800"
+        className="md:hidden mt-10 absolute -bottom-32 left-0 right-0 mx-auto w-auto h-[700px] object-cover"
         draggable="false"
       />
     </div>
