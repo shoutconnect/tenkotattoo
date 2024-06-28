@@ -4,6 +4,7 @@ import Hero from "@/components/home/Hero";
 import MeetOurArtists from "@/components/home/MeetOurArtists";
 import Services from "@/components/home/Services";
 import Travel from "@/components/home/Travel";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,8 +12,17 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      <MeetOurArtists />
-      <Travel />
+      <div className="relative ">
+        <Image
+          src="/Bg Brush.svg"
+          alt="Brush stroke"
+          width={100}
+          height={100}
+          className="absolute top-0 left-0 w-full opacity-50"
+        />
+        <MeetOurArtists />
+        <Travel />
+      </div>
       <CTA />
     </main>
   );

@@ -22,7 +22,7 @@
     @apply font-header tracking-tight text-neutral-900;
   }
   h1 {
-    @apply text-5xl max-md:text-4xl;
+    @apply text-6xl max-md:text-4xl;
   }
   h2 {
     @apply text-4xl max-md:text-3xl;
@@ -41,7 +41,7 @@
   }
   p,
   input {
-    @apply font-sans font-normal text-neutral-500 leading-[30px];
+    @apply font-sans font-medium text-neutral-500 leading-[30px];
   }
   ::selection {
     @apply text-white bg-[#ed028c];
@@ -79,4 +79,14 @@ html {
 
 body {
   overflow-x: hidden !important;
+}
+
+
+.dot {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 16px 16px;
 }
