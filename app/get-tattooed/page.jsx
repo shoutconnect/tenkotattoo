@@ -41,7 +41,7 @@ export default function GetTattooed() {
           className="object-cover w-[105%] -mb-1"
         />
         <div className="bg-neutral-900 pb-10">
-          <div className="margin-x">
+          <div className="margin-x relative z-10">
             <p className="text-neutral-50 text-center mb-10 pt-10">
               <span className="font-bold">
                 Please complete the form in its entirety.

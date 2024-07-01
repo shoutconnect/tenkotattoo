@@ -4,101 +4,28 @@ export default function Tabs() {
   const steps = [
     {
       id: "tabs-with-underline-1",
-      step: "Step 1",
+      step: "Per session",
       title: (
         <>
           Choosing a <span className="text-tenko">design</span>
         </>
       ),
-      description: (
-        <>
-          Explore online platforms like{" "}
-          <Link
-            href="https://www.pinterest.co.uk/"
-            target="_blank"
-            className="link-tenko"
-          >
-            Pinterest
-          </Link>{" "}
-          and{" "}
-          <Link
-            href="https://images.google.co.uk/"
-            target="_blank"
-            className="link-tenko"
-          >
-            Google Image Search{" "}
-          </Link>
-          to find images that capture your vision. Each of our artists
-          specialises in custom tattoos in their own style, so the images don't
-          need to be perfect.
-          <br />
-          <br />
-          Share photos or sketches of your idea, the desired size and placement,
-          a picture of the area you want tattooed, and your preference for
-          colour or black and grey. This is your chance to define the style
-          you'd like, or if you're choosing a preferred artist, it will likely
-          align with their style.
-          <br />
-          <br />
-          Finally, set your budget. Each artist will price their work
-          individually, and depending on whether the tattoo requires multiple
-          sessions or can be completed in a day, this will influence the cost.
-          <br />
-          <br />
-          Be mindful that although the artist will aim to keep the price within
-          your budget, factors such as size, design intricacy, and time may
-          require flexibility. This could mean adjusting your budget or reducing
-          the size and complexity of the tattoo.
-        </>
-      ),
     },
     {
       id: "tabs-with-underline-2",
-      step: "Step 2",
+      step: "Packages",
       title: (
         <>
           Choosing an <span className="text-tenko">artist</span>
         </>
       ),
-      description: (
-        <>
-          At Tenko Tattoo, each of our artists specialise in different styles.
-          You can browse through our{" "}
-          <Link href="/artists" target="_blank" className="link-tenko">
-            artists portfolios
-          </Link>{" "}
-          to find the one that best suits you, or you can submit your booking
-          inquiry without selecting a preference and the artists who we feel
-          most fitting will be in touch.
-        </>
-      ),
     },
     {
       id: "tabs-with-underline-3",
-      step: "Step 3",
+      step: "Cover up offer",
       title: (
         <>
           Paying your <span className="text-tenko">deposit</span>
-        </>
-      ),
-      description: (
-        <>
-          Once you've settled on a concept and chosen an artist, you'll need to
-          pay a deposit to secure your booking. The deposit amount, typically a
-          percentage of the total price with a set minimum, will be discussed
-          with, and is paid directly to your artist.
-          <br />
-          <br />
-          <span className="font-bold text-neutral-900">
-            When will you see the design?
-          </span>{" "}
-          This depends on the artist, but it's generally either the night before
-          or the morning of your appointment.
-          <br />
-          <br />
-          Deposits are non-refundable if your session is cancelled within
-          48-hours of you appointment time. This policy is strictly enforced by
-          the studio and is independent of our artists' individual practices.
         </>
       ),
     },
@@ -109,8 +36,22 @@ export default function Tabs() {
       {" "}
       <div className=" margin-x ">
         {" "}
-        <h1 className="mb-16 text-center">First time getting a tattoo?</h1>
-        <nav className="grid grid-cols-3" aria-label="Tabs" role="tablist">
+        <h1 className="mb-16 text-center">Laser removal pricing</h1>
+        <h5 className="text-neutral-400">
+          The prices listed here are approximate. The cost of laser treatment
+          can vary based on the design's negative space and whether the tattoo
+          is multi-coloured. For an accurate quote or any questions about
+          pricing, please{" "}
+          <Link href="/contact" target="_blank" className="link-tenko">
+            contact us
+          </Link>{" "}
+          for a free consultation.
+        </h5>
+        <nav
+          className="mt-16 grid grid-cols-3"
+          aria-label="Tabs"
+          role="tablist"
+        >
           <button
             type="button"
             className="justify-center hs-tab-active:font-semibold border-neutral-900 hs-tab-active:border-[#ed028c] hs-tab-active:text-[#ed028c] py-4 px-1 inline-flex items-center gap-x-2 border-b-4 text-sm whitespace-nowrap text-neutral-500 hover:text-[#ed028c] focus:outline-none focus:text-[#ed028c] disabled:opacity-50 disabled:pointer-events-none active"
@@ -149,9 +90,20 @@ export default function Tabs() {
           role="tabpanel"
           aria-labelledby="tabs-with-underline-item-1"
         >
-          <h4>{steps[0].title}</h4>
           <p className="mt-6 mb-16">{steps[0].description}</p>{" "}
-          <div className="w-full h-[400px] bg-blue-600" />
+          <div className="bg-tenko">
+            <h5>
+              {" "}
+              When booking <span className="text-tenko">
+                three or more
+              </span>{" "}
+              sessions:
+            </h5>
+            <h6 className="text-base">
+              {" "}
+              Further packages available for larger bulk session bookings
+            </h6>
+          </div>
         </div>
         <div
           id="tabs-with-underline-2"
@@ -162,7 +114,6 @@ export default function Tabs() {
           {" "}
           <h4>{steps[1].title}</h4>
           <p className="mt-6 mb-16">{steps[1].description}</p>{" "}
-          <div className="w-full h-[400px] bg-blue-600" />
         </div>
         <div
           id="tabs-with-underline-3"
@@ -173,7 +124,6 @@ export default function Tabs() {
           {" "}
           <h4>{steps[2].title}</h4>
           <p className="mt-6 mb-16">{steps[2].description}</p>
-          <div className="w-full h-[400px] bg-blue-600" />
         </div>
       </div>
     </div>
