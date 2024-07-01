@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="py-6">
       <div className="margin-x relative flex items-center justify-center h-auto">
-        <div className="relative z-10 margin-y flex flex-col items-start justify-center w-full h-[700px]">
+        <div className="relative px-10 z-10 margin-y flex flex-col items-start justify-center w-full h-[700px]">
           <h1 className="text-7xl lg:text-8xl xl:text-9xl text-tenko">
             Wisdom
           </h1>

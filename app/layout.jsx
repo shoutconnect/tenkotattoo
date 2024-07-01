@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import NavBanner from "@/components/NavBanner";
+import PrelineScript from "@/components/PrelineScript";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div class="fixed -z-20 inset-0 h-[100%] w-full bg-neutral-50 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <PrelineScript />
+        <div class="fixed mt-36 mx-auto right-0 left-0 -z-20 inset-0 h-[100%] w-[95%] bg-neutral-50 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <NavBanner />
         <Navbar />
         {children}

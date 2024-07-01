@@ -16,7 +16,7 @@ export default function Services() {
     },
   ];
   return (
-    <div className="py-14">
+    <div className="py-20 ">
       <div className="relative flex flex-col items-center justify-center margin-y ">
         <div className="relative z-10 max-sm:mt-20 margin-x w-full h-full flex flex-col items-center justify-center gap-6 sm:px-[10%] lg:px-[15%]">
           <Image
@@ -61,33 +61,33 @@ export default function Services() {
         <Image
           src="/Home Services Brush (1).svg"
           alt="Services brush bg"
-          width="900"
-          height="800"
-          className="mt-10 absolute top-0 left-0 right-0 mx-auto w-auto h-[700px] object-cover"
+          width="1100"
+          height="1000"
+          className="mt-2 absolute top-0 left-0 right-0 mx-auto w-auto h-[800px] object-cover"
           draggable="false"
         />{" "}
         <Image
           src="/Home Services Brush (1).svg"
           alt="Services brush bg"
-          width="900"
-          height="800"
-          className="mt-10 absolute top-0 left-0 right-0 mx-auto w-auto h-[700px] object-cover"
+          width="1100"
+          height="1000"
+          className="mt-2 absolute top-0 left-0 right-0 mx-auto w-auto h-[800px] object-cover"
           draggable="false"
         />
         <Image
           src="/Home Services Brush (2).svg"
           alt="Services brush bg"
-          width="900"
-          height="800"
-          className="mt-10 absolute top-0 left-0 right-0 mx-auto w-auto h-[700px] object-cover"
+          width="1100"
+          height="1000"
+          className="mt-2 absolute top-0 left-0 right-0 mx-auto w-auto h-[800px] object-cover"
           draggable="false"
         />
         <Image
           src="/Home Services Brush (2).svg"
           alt="Services brush bg"
-          width="900"
-          height="800"
-          className="md:hidden mt-10 absolute -bottom-32 left-0 right-0 mx-auto w-auto h-[700px] object-cover"
+          width="1100"
+          height="1000"
+          className="md:hidden mt-2 absolute -bottom-32 left-0 right-0 mx-auto w-auto h-[800px] object-cover"
           draggable="false"
         />
       </div>

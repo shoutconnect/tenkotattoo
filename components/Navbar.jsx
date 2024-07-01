@@ -8,13 +8,14 @@ export default function Navbar() {
   const menuItems = [
     { name: "Home", href: "/" },
     { name: "Artists", href: "/artists" },
-    { name: "FAQ", href: "/faq" },
+    { name: "Laser Removal", href: "/laser-removal" },
     { name: "Aftercare", href: "/tattoo-aftercare" },
+    { name: "FAQ", href: "/faq" },
     { name: "Contact", href: "/contact" },
   ];
 
   return (
-    <nav className="bg-neutral-50 py-6">
+    <nav className="py-6">
       <div className="margin-x w-full flex justify-between items-start">
         <Logo css="h-20 w-auto" black />
 
@@ -38,7 +39,7 @@ export default function Navbar() {
                 <span className="text-tenko duration-300 delay-200 group-hover:text-neutral-50 ease">
                   GET
                 </span>
-                <span className="text-neutral-50">TATTOED</span>
+                <span className="text-neutral-50">TATTOOED</span>
               </>
             }
             href="/contact"

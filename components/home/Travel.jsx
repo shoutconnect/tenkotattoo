@@ -23,7 +23,7 @@ export default function Travel() {
       icon: "/Travel (5).svg",
       title: "Hotel",
       description:
-        "For our clients traveling from afar and seeking local accommodation, we are conveniently situated right beside Premier Inn.",
+        "For our clients travelling from afar and seeking local accommodation, we are conveniently situated right beside Premier Inn.",
     },
   ];
   return (

@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="margin-x relative z-20 grid grid-cols-1 lg:grid-cols-2 xl:gap-16 gap-12 sm:-mt-24">
-      <div className="sm:p-10 sm:grid sm:grid-cols-5 md:grid-cols-4 ">
-        <div className="sm:col-span-4 md:col-span-3 lg:col-span-4 relative bg-tenko rounded-full aspect-square w-full max-sm:mb-10">
+    <div className="margin-x relative z-20 flex max-lg:flex-col xl:gap-16 gap-12 sm:-mt-24 max-sm:items-center max-sm:justify-center">
+      <div className="sm:p-10 w-[575px] max-xl:w-[500px] max-sm:w-full max-lg:mx-auto">
+        <div className="relative bg-tenko rounded-full aspect-square w-full max-sm:mb-10">
           <div className="flex flex-col items-center justify-center h-full gap-4 sm:gap-6  py-12">
             {" "}
             <Image

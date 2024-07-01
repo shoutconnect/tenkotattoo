@@ -18,7 +18,7 @@ export default function Home() {
           alt="Brush stroke"
           width={100}
           height={100}
-          className="absolute top-0 left-0 w-full opacity-50"
+          className="absolute absolute-center w-full opacity-50"
         />
         <MeetOurArtists />
         <Travel />

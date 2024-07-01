@@ -22,7 +22,7 @@
     @apply font-header tracking-tight text-neutral-900;
   }
   h1 {
-    @apply text-6xl max-md:text-4xl;
+    @apply text-6xl max-md:text-4xl leading-[50px];
   }
   h2 {
     @apply text-4xl max-md:text-3xl;
@@ -51,6 +51,9 @@
   }
   .text-tenko {
     @apply text-[#ed028c];
+  }
+  .link-tenko {
+    @apply cursor-pointer hover:underline text-[#ed028c] font-bold;
   }
   .absolute-center {
     @apply top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
@@ -89,4 +92,9 @@ body {
   width: 100%;
   background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
   background-size: 16px 16px;
+}
+
+
+html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+  margin-top: 50px !important;
 }
