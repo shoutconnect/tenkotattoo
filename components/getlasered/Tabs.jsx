@@ -5,29 +5,29 @@ export default function Tabs() {
     {
       id: "tabs-with-underline-1",
       step: "Per session",
-      title: (
-        <>
-          Choosing a <span className="text-tenko">design</span>
-        </>
-      ),
+      price: {
+        small: 30,
+        medium: 80,
+        large: 100,
+      },
     },
     {
       id: "tabs-with-underline-2",
       step: "Packages",
-      title: (
-        <>
-          Choosing an <span className="text-tenko">artist</span>
-        </>
-      ),
+      price: {
+        small: 25,
+        medium: 75,
+        large: 95,
+      },
     },
     {
       id: "tabs-with-underline-3",
       step: "Cover up offer",
-      title: (
-        <>
-          Paying your <span className="text-tenko">deposit</span>
-        </>
-      ),
+      price: {
+        small: 20,
+        medium: 60,
+        large: 80,
+      },
     },
   ];
 
@@ -90,19 +90,45 @@ export default function Tabs() {
           role="tabpanel"
           aria-labelledby="tabs-with-underline-item-1"
         >
-          <p className="mt-6 mb-16">{steps[0].description}</p>{" "}
-          <div className="bg-tenko">
-            <h5>
-              {" "}
-              When booking <span className="text-tenko">
-                three or more
-              </span>{" "}
-              sessions:
-            </h5>
-            <h6 className="text-base">
-              {" "}
-              Further packages available for larger bulk session bookings
-            </h6>
+          {" "}
+          <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-12">
+            <div className="md:text-center flex flex-col md:items-center group">
+              <h4 className="group-hover:text-tenko my-transition">Small</h4>
+              <h6 className="text-sm hover:text-tenko my-transition">
+                (3cm x 3cm)
+              </h6>
+              <div className="my-4 w-[50%] h-[1px] bg-neutral-300" />
+              <h1 className="text-7xl group-hover:text-tenko my-transition">
+                £{steps[0].price.small}
+              </h1>
+              <p className="text-sm text-neutral-400 mt-4">
+                £10 per additional 1cm² for small session
+              </p>
+            </div>{" "}
+            <div className="md:text-center flex flex-col md:items-center group">
+              <h4 className="group-hover:text-tenko my-transition">Medium</h4>
+              <h6 className="text-sm hover:text-tenko my-transition">
+                (8cm x 8cm)
+              </h6>
+              <div className="my-4 w-[50%] h-[1px] bg-neutral-300" />
+              <h1 className="text-7xl group-hover:text-tenko my-transition">
+                £{steps[0].price.medium}
+              </h1>
+              <p className="text-sm text-neutral-400 mt-4">
+                £10 per additional 2cm² for medium session
+              </p>
+            </div>{" "}
+            <div className="md:text-center flex flex-col md:items-center group ">
+              <h4 className="group-hover:text-tenko my-transition">Large</h4>
+              <h6 className="text-sm">(12cm x 12cm)</h6>
+              <div className="my-4 w-[50%] h-[1px] bg-neutral-300" />
+              <h1 className="text-7xl group-hover:text-tenko my-transition">
+                £{steps[0].price.large}
+              </h1>
+              <p className="text-sm text-neutral-400 mt-4">
+                £10 per additional 2cm² for large session
+              </p>
+            </div>
           </div>
         </div>
         <div
@@ -111,9 +137,58 @@ export default function Tabs() {
           role="tabpanel"
           aria-labelledby="tabs-with-underline-item-2"
         >
-          {" "}
-          <h4>{steps[1].title}</h4>
-          <p className="mt-6 mb-16">{steps[1].description}</p>{" "}
+          <div className="-mt-6">
+            <h5>
+              {" "}
+              When booking <span className="text-tenko">
+                three or more
+              </span>{" "}
+              sessions:
+            </h5>
+            <h6 className="text-base text-neutral-400">
+              {" "}
+              Further packages available for larger bulk session bookings
+            </h6>{" "}
+            <div className="grid grid-cols-1 md:grid-cols-3 mt-10">
+              <div className="text-center flex flex-col items-center group">
+                <h4 className="group-hover:text-tenko my-transition">Small</h4>
+                <h6 className="text-sm hover:text-tenko my-transition">
+                  (3cm x 3cm)
+                </h6>
+                <div className="my-4 w-[50%] h-[1px] bg-neutral-300" />
+                <h1 className="text-7xl group-hover:text-tenko my-transition">
+                  £{steps[1].price.small}
+                </h1>
+                <p className="text-sm text-neutral-400 mt-4">
+                  £10 per additional 1cm² for small session
+                </p>
+              </div>{" "}
+              <div className="text-center flex flex-col items-center group">
+                <h4 className="group-hover:text-tenko my-transition">Medium</h4>
+                <h6 className="text-sm hover:text-tenko my-transition">
+                  (8cm x 8cm)
+                </h6>
+                <div className="my-4 w-[50%] h-[1px] bg-neutral-300" />
+                <h1 className="text-7xl group-hover:text-tenko my-transition">
+                  £{steps[1].price.medium}
+                </h1>
+                <p className="text-sm text-neutral-400 mt-4">
+                  £10 per additional 2cm² for medium session
+                </p>
+              </div>{" "}
+              <div className="text-center flex flex-col items-center group ">
+                <h4 className="group-hover:text-tenko my-transition">Large</h4>
+                <h6 className="text-sm">(12cm x 12cm)</h6>
+                <div className="my-4 w-[50%] h-[1px] bg-neutral-300" />
+                <h1 className="text-7xl group-hover:text-tenko my-transition">
+                  £{steps[1].price.large}
+                </h1>
+                <p className="text-sm text-neutral-400 mt-4">
+                  £10 per additional 2cm² for large session
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div
           id="tabs-with-underline-3"
@@ -121,9 +196,58 @@ export default function Tabs() {
           role="tabpanel"
           aria-labelledby="tabs-with-underline-item-3"
         >
-          {" "}
-          <h4>{steps[2].title}</h4>
-          <p className="mt-6 mb-16">{steps[2].description}</p>
+          <div className="-mt-6">
+            <h5>
+              {" "}
+              When <span className="text-tenko">
+                booking a tattoo session
+              </span>{" "}
+              with an artists:
+            </h5>
+            <h6 className="text-base text-neutral-400">
+              {" "}
+              tattoo Deposit must be paid to artist for discount to be applied{" "}
+            </h6>
+            <div className="grid grid-cols-1 md:grid-cols-3 mt-10">
+              <div className="text-center flex flex-col items-center group">
+                <h4 className="group-hover:text-tenko my-transition">Small</h4>
+                <h6 className="text-sm hover:text-tenko my-transition">
+                  (3cm x 3cm)
+                </h6>
+                <div className="my-4 w-[50%] h-[1px] bg-neutral-300" />
+                <h1 className="text-7xl group-hover:text-tenko my-transition">
+                  £{steps[2].price.small}
+                </h1>
+                <p className="text-sm text-neutral-400 mt-4">
+                  £10 per additional 1cm² for small session
+                </p>
+              </div>{" "}
+              <div className="text-center flex flex-col items-center group">
+                <h4 className="group-hover:text-tenko my-transition">Medium</h4>
+                <h6 className="text-sm hover:text-tenko my-transition">
+                  (8cm x 8cm)
+                </h6>
+                <div className="my-4 w-[50%] h-[1px] bg-neutral-300" />
+                <h1 className="text-7xl group-hover:text-tenko my-transition">
+                  £{steps[2].price.medium}
+                </h1>
+                <p className="text-sm text-neutral-400 mt-4">
+                  £10 per additional 2cm² for medium session
+                </p>
+              </div>{" "}
+              <div className="text-center flex flex-col items-center group ">
+                <h4 className="group-hover:text-tenko my-transition">Large</h4>
+                <h6 className="text-sm">(12cm x 12cm)</h6>
+                <div className="my-4 w-[50%] h-[1px] bg-neutral-300" />
+                <h1 className="text-7xl group-hover:text-tenko my-transition">
+                  £{steps[2].price.large}
+                </h1>
+                <p className="text-sm text-neutral-400 mt-4">
+                  £10 per additional 2cm² for large session
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
