@@ -9,13 +9,13 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "Artists", href: "/artists" },
     { name: "Laser Removal", href: "/laser-removal" },
-    { name: "Aftercare", href: "/tattoo-aftercare" },
+    { name: "Aftercare", href: "/aftercare" },
     { name: "FAQ", href: "/faq" },
     { name: "Contact", href: "/contact" },
   ];
 
   return (
-    <nav className="py-6">
+    <nav className="py-6 relative z-10">
       <div className="margin-x w-full flex justify-between items-start">
         <Logo css="h-20 w-auto" black />
 
@@ -27,7 +27,7 @@ export default function Navbar() {
                   <p className="mx-1.5 uppercase font-extrabold text-neutral-600 group-hover:text-tenko">
                     {item.name}
                   </p>{" "}
-                  <div className="group-hover:bg-tenko bg-neutral-50 my-transition h-1 w-full " />
+                  <div className="group-hover:bg-tenko bg-transparent my-transition h-1 w-full " />
                 </div>
               </Link>
             ))}
