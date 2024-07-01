@@ -7,7 +7,7 @@ export default function GetTattooed() {
   return (
     <main>
       {" "}
-      <div className="margin-x pb-24 max-sm:pb-16 pt-16">
+      <div className="margin-x pb-24 max-sm:pb-16 pt-16 relative z-10">
         <div className="">
           <h1 className="leading-[60px]">
             <span className="text-tenko">Get</span>tattooed
@@ -28,7 +28,8 @@ export default function GetTattooed() {
           alt="Brush stroke"
           width={100}
           height={100}
-          className="absolute absolute-center w-full opacity-50"
+          draggable="false"
+          className="absolute absolute-center w-full opacity-50 select-none"
         />
       </div>
       <Features />
@@ -38,7 +39,8 @@ export default function GetTattooed() {
           alt="Brush stroke"
           width={100}
           height={100}
-          className="object-cover w-[105%] -mb-1"
+          draggable="false"
+          className="object-cover w-[105%] -mb-1 select-none"
         />
         <div className="bg-neutral-900 pb-10">
           <div className="margin-x relative z-10">
@@ -71,7 +73,8 @@ https://www.cognitoforms.com/f/iframe.js"
           alt="Brush stroke"
           width={100}
           height={100}
-          className="object-cover w-[105%] -mt-1"
+          draggable="false"
+          className="object-cover w-[105%] -mt-1 select-none"
         />
       </div>
       <Tabs /> <CTA />
