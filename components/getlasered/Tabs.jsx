@@ -1,3 +1,5 @@
+import { BanknotesIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Tabs() {
@@ -34,9 +36,19 @@ export default function Tabs() {
   return (
     <div className=" margin-y relative z-10">
       {" "}
-      <div className=" margin-x ">
+      <div className="margin-x flex flex-col items-center">
         {" "}
-        <h1 className="mb-16 text-center">Laser removal pricing</h1>
+        <Image
+          src="/icons/Laser Removal.svg"
+          alt="Laser removal"
+          width={100}
+          height={100}
+          className="h-16 w-auto mb-10"
+        />
+        <h1 className="mb-16 text-center">
+          Laser removal
+          <span className="text-tenko"> pricing</span>
+        </h1>
         <h5 className="text-neutral-400">
           The prices listed here are approximate. The cost of laser treatment
           can vary based on the design's negative space and whether the tattoo

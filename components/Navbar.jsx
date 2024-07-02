@@ -61,7 +61,7 @@ export default function Navbar() {
                       <span className="text-neutral-50">TATTOOED</span>
                     </>
                   }
-                  href="/contact"
+                  href="/get-tattooed"
                 />
               </div>
             </div>

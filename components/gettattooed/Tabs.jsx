@@ -1,3 +1,5 @@
+import { DorisImg, SianImg, TakeyImg } from "@/data/DataImages";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Tabs() {
@@ -151,7 +153,17 @@ export default function Tabs() {
         >
           <h4>{steps[0].title}</h4>
           <p className="mt-6 mb-16">{steps[0].description}</p>{" "}
-          <div className="w-full h-[400px] bg-blue-600" />
+          <div className="relative">
+            <Image
+              src={DorisImg[4]}
+              alt="Artist image"
+              draggable="false"
+              width={1200}
+              height={1500}
+              className="absolute absolute-center z-[1] w-full h-[250px] md:h-[400px] object-cover opacity-60"
+            />
+            <div className="w-full h-[250px] md:h-[400px] bg-neutral-900" />
+          </div>
         </div>
         <div
           id="tabs-with-underline-2"
@@ -162,7 +174,17 @@ export default function Tabs() {
           {" "}
           <h4>{steps[1].title}</h4>
           <p className="mt-6 mb-16">{steps[1].description}</p>{" "}
-          <div className="w-full h-[400px] bg-blue-600" />
+          <div className="relative">
+            <Image
+              src={SianImg[2]}
+              alt="Artist image"
+              draggable="false"
+              width={1200}
+              height={1500}
+              className="absolute absolute-center z-[1] w-full h-[250px] md:h-[400px] object-cover opacity-60"
+            />
+            <div className="w-full h-[250px] md:h-[400px] bg-neutral-900" />
+          </div>
         </div>
         <div
           id="tabs-with-underline-3"
@@ -173,7 +195,17 @@ export default function Tabs() {
           {" "}
           <h4>{steps[2].title}</h4>
           <p className="mt-6 mb-16">{steps[2].description}</p>
-          <div className="w-full h-[400px] bg-blue-600" />
+          <div className="relative">
+            <Image
+              src={TakeyImg[3]}
+              alt="Artist image"
+              draggable="false"
+              width={1200}
+              height={1500}
+              className="absolute absolute-center z-[1] w-full h-[250px] md:h-[400px] object-cover opacity-60"
+            />
+            <div className="w-full h-[250px] md:h-[400px] bg-neutral-900" />
+          </div>
         </div>
       </div>
     </div>
