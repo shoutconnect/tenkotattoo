@@ -21,13 +21,13 @@ export default function Navbar() {
       <div className="fixed z-[99999] bg-neutral-50 border-b-[1px] border-neutral-50 backdrop-blur-md w-full">
         {" "}
         <NavBanner />
-        <div class="py-0 relative z-10">
-          <nav class="margin-x w-full flex justify-between items-start flex-wrap  lg:flex-nowrap text-sm py-4">
+        <div className="py-0 relative z-10">
+          <nav className="margin-x w-full flex justify-between items-start flex-wrap  lg:flex-nowrap text-sm py-4">
             <Logo css="h-20 w-auto" black />
-            <div class="lg:hidden">
+            <div className="lg:hidden">
               <button
                 type="button"
-                class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md font-medium  text-neutral-800 align-middle  focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-offset-transparent focus:ring-transparent transition-all text-sm"
+                className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md font-medium  text-neutral-800 align-middle  focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-offset-transparent focus:ring-transparent transition-all text-sm"
                 data-hs-collapse="#navbar-dark"
                 aria-controls="navbar-dark"
                 aria-label="Toggle navigation"
@@ -39,9 +39,9 @@ export default function Navbar() {
 
             <div
               id="navbar-dark"
-              class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block "
+              className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block "
             >
-              <div class="flex flex-col p-5 gap-4 lg:gap-5 mt-5 lg:flex-row items-end lg:items-center lg:justify-end lg:mt-0 lg:ps-5">
+              <div className="flex flex-col p-5 gap-4 lg:gap-5 mt-5 lg:flex-row items-end lg:items-center lg:justify-end lg:mt-0 lg:ps-5">
                 {menuItems.map((item, i) => (
                   <Link href={item.href} key={i} className="">
                     <div className="pt-1 group flex flex-col gap-1">

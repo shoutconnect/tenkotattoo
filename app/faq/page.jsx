@@ -1,6 +1,7 @@
 import FAQ from "@/components/UI/FAQ";
 import PageHeader from "@/components/UI/PageHeader";
 import Description from "@/components/faq/Description";
+import CTA from "@/components/home/CTA";
 import { StudioImg } from "@/data/DataImages";
 import Image from "next/image";
 
@@ -105,6 +106,7 @@ export default function Faq() {
           <FAQ data={faq} />
         </div>
       </div>
+      <CTA />
     </main>
   );
 }

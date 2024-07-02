@@ -1,8 +1,9 @@
 import PageHeader from "@/components/UI/PageHeader";
-import CTA from "@/components/getlasered/CTA";
 import Features from "@/components/getlasered/Features";
+import HowWorks from "@/components/getlasered/HowWorks";
 import Services from "@/components/getlasered/Services";
 import Tabs from "@/components/getlasered/Tabs";
+import CTA from "@/components/home/CTA";
 import { StudioImg } from "@/data/DataImages";
 import Image from "next/image";
 
@@ -34,6 +35,7 @@ export default function LaserRemoval() {
       </div>
       <Features />
       <Tabs />
+      <HowWorks />
       <CTA />
     </main>
   );

@@ -1,4 +1,5 @@
 import PageHeader from "@/components/UI/PageHeader";
+import CTA from "@/components/home/CTA";
 import { StudioImg } from "@/data/DataImages";
 import Image from "next/image";
 
@@ -26,6 +27,7 @@ export default function Aftercare() {
           className="-z-[1] absolute absolute-center w-full min-w-[1000px] opacity-50"
         />
       </div>
+      <CTA />
     </main>
   );
 }
