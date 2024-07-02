@@ -4,7 +4,7 @@ export default function PageHeader({ image, text }) {
   return (
     <>
       <header className="relative margin-x margin-y overflow-hidden">
-        <div className="relative z-10 ml-10 flex flex-col gap-2">{text}</div>
+        <div className="relative z-10 md:ml-10 flex flex-col gap-2">{text}</div>
         <Image
           src={image}
           alt="Background image"

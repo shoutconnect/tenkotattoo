@@ -28,6 +28,7 @@ const TakeyImg = [
 const StudioImg = [
   "https://i.ibb.co/d5Y6BG5/26th-May-1.jpg",
   "https://i.ibb.co/6Rf0c8W/26th-May-2.jpg",
+  "https://i.ibb.co/WczBmMk/DSCF0310.jpg",
 ];
 
 export { DorisImg, SianImg, TakeyImg, StudioImg };

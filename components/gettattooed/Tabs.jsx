@@ -109,8 +109,15 @@ export default function Tabs() {
   return (
     <div className=" margin-y relative z-10">
       {" "}
-      <div className=" margin-x ">
+      <div className=" margin-x">
         {" "}
+        <Image
+          src="/icons/Person on the chair.svg"
+          alt="Person on the chair"
+          width={100}
+          height={100}
+          className="h-16 w-auto mb-10 mx-auto"
+        />
         <h1 className="mb-16 text-center">First time getting a tattoo?</h1>
         <nav className="grid grid-cols-3" aria-label="Tabs" role="tablist">
           <button

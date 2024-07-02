@@ -19,7 +19,7 @@ export default function Home() {
           width={100}
           height={100}
           draggable="false"
-          className="-z-[1] absolute absolute-center w-full opacity-50"
+          className="-z-[1] absolute absolute-center w-full min-w-[1000px] opacity-50"
         />
 
         <MeetOurArtists />
