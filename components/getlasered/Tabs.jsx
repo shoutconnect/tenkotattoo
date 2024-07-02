@@ -49,7 +49,7 @@ export default function Tabs() {
           Laser removal
           <span className="text-tenko"> pricing</span>
         </h1>
-        <h5 className="text-neutral-400">
+        <h5 className="text-neutral-400 max-md:text-center">
           The prices listed here are approximate. The cost of laser treatment
           can vary based on the design's negative space and whether the tattoo
           is multi-coloured. For an accurate quote or any questions about
@@ -103,8 +103,8 @@ export default function Tabs() {
           aria-labelledby="tabs-with-underline-item-1"
         >
           {" "}
-          <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-12">
-            <div className="md:text-center flex flex-col md:items-center group">
+          <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-20">
+            <div className="md:text-center flex flex-col items-center group">
               <h4 className="group-hover:text-tenko my-transition">Small</h4>
               <h6 className="text-sm hover:text-tenko my-transition">
                 (3cm x 3cm)
@@ -117,7 +117,7 @@ export default function Tabs() {
                 £10 per additional 1cm² for small session
               </p>
             </div>{" "}
-            <div className="md:text-center flex flex-col md:items-center group">
+            <div className="md:text-center flex flex-col items-center group">
               <h4 className="group-hover:text-tenko my-transition">Medium</h4>
               <h6 className="text-sm hover:text-tenko my-transition">
                 (8cm x 8cm)
@@ -130,7 +130,7 @@ export default function Tabs() {
                 £10 per additional 2cm² for medium session
               </p>
             </div>{" "}
-            <div className="md:text-center flex flex-col md:items-center group ">
+            <div className="md:text-center flex flex-col items-center group ">
               <h4 className="group-hover:text-tenko my-transition">Large</h4>
               <h6 className="text-sm">(12cm x 12cm)</h6>
               <div className="my-4 w-[50%] h-[1px] bg-neutral-300" />
@@ -149,7 +149,7 @@ export default function Tabs() {
           role="tabpanel"
           aria-labelledby="tabs-with-underline-item-2"
         >
-          <div className="-mt-6">
+          <div className="-mt-6 max-md:text-center">
             <h5>
               {" "}
               When booking <span className="text-tenko">
@@ -157,11 +157,11 @@ export default function Tabs() {
               </span>{" "}
               sessions:
             </h5>
-            <h6 className="text-base text-neutral-400">
+            <p className="text-base">
               {" "}
-              Further packages available for larger bulk session bookings
-            </h6>{" "}
-            <div className="grid grid-cols-1 md:grid-cols-3 mt-10">
+              Further packages available for larger bulk session bookings.
+            </p>{" "}
+            <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-20">
               <div className="text-center flex flex-col items-center group">
                 <h4 className="group-hover:text-tenko my-transition">Small</h4>
                 <h6 className="text-sm hover:text-tenko my-transition">
@@ -208,7 +208,7 @@ export default function Tabs() {
           role="tabpanel"
           aria-labelledby="tabs-with-underline-item-3"
         >
-          <div className="-mt-6">
+          <div className="-mt-6 max-md:text-center">
             <h5>
               {" "}
               When <span className="text-tenko">
@@ -216,11 +216,14 @@ export default function Tabs() {
               </span>{" "}
               with an artists:
             </h5>
-            <h6 className="text-base text-neutral-400">
+            <p className="text-base">
               {" "}
-              tattoo Deposit must be paid to artist for discount to be applied{" "}
-            </h6>
-            <div className="grid grid-cols-1 md:grid-cols-3 mt-10">
+              Tattoo deposit must be paid to artist for discount to be applied.
+              The 20% discount is applicable to both individual sessions and
+              session packages. The prices below reflect the discount as applied
+              to packages.{" "}
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-20">
               <div className="text-center flex flex-col items-center group">
                 <h4 className="group-hover:text-tenko my-transition">Small</h4>
                 <h6 className="text-sm hover:text-tenko my-transition">

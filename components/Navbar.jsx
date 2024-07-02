@@ -22,9 +22,9 @@ export default function Navbar() {
         {" "}
         <NavBanner />
         <div class="py-0 relative z-10">
-          <nav class="margin-x w-full flex justify-between items-start flex-wrap  sm:flex-nowrap text-sm py-4">
+          <nav class="margin-x w-full flex justify-between items-start flex-wrap  lg:flex-nowrap text-sm py-4">
             <Logo css="h-20 w-auto" black />
-            <div class="sm:hidden">
+            <div class="lg:hidden">
               <button
                 type="button"
                 class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md font-medium  text-neutral-800 align-middle  focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-offset-transparent focus:ring-transparent transition-all text-sm"
@@ -39,13 +39,13 @@ export default function Navbar() {
 
             <div
               id="navbar-dark"
-              class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block "
+              class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block "
             >
-              <div class="flex flex-col p-5 gap-4 md:gap-5 mt-5 md:flex-row items-end md:items-center md:justify-end md:mt-0 md:ps-5">
+              <div class="flex flex-col p-5 gap-4 lg:gap-5 mt-5 lg:flex-row items-end lg:items-center lg:justify-end lg:mt-0 lg:ps-5">
                 {menuItems.map((item, i) => (
                   <Link href={item.href} key={i} className="">
                     <div className="pt-1 group flex flex-col gap-1">
-                      <p className="max-md:text-lg mx-1.5 uppercase font-extrabold text-neutral-600 group-hover:text-tenko">
+                      <p className="max-lg:text-lg mx-1.5 uppercase font-extrabold text-neutral-600 group-hover:text-tenko">
                         {item.name}
                       </p>{" "}
                       <div className="group-hover:bg-tenko bg-transparent my-transition h-1 w-full " />
