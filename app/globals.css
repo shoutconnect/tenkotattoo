@@ -50,7 +50,7 @@
     @apply bg-[#ed028c];
   }
   .text-tenko {
-    @apply text-[#ed028c];
+    @apply text-[#ed028c] dark:text-[#ed028c];
   }
   .link-tenko {
     @apply cursor-pointer hover:underline text-[#ed028c] font-bold;
@@ -97,4 +97,18 @@ body {
 
 html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
   margin-top: 50px !important;
+}
+
+/* Firefox */
+@media (prefers-color-scheme: dark) {
+  :root {
+      color-scheme: light;
+  }
+}
+
+/* Chrome */
+@media (forced-colors: active) {
+  :root {
+      color-scheme: light;
+  }
 }
