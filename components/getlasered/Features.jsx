@@ -27,7 +27,7 @@ export default function Features() {
     },
   ];
   return (
-    <div className="margin-x grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div className="margin-x margin-y grid grid-cols-1 md:grid-cols-3 gap-12">
       {features.map((feature, index) => (
         <div key={index} className="text-center">
           <h4 className="">{feature.title}</h4>

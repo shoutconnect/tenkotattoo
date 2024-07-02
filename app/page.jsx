@@ -18,8 +18,10 @@ export default function Home() {
           alt="Brush stroke"
           width={100}
           height={100}
-          className="absolute absolute-center w-full opacity-50"
+          draggable="false"
+          className="-z-[1] absolute absolute-center w-full opacity-50"
         />
+
         <MeetOurArtists />
         <Travel />
       </div>

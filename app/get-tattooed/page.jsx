@@ -29,7 +29,7 @@ export default function GetTattooed() {
           width={100}
           height={100}
           draggable="false"
-          className="absolute absolute-center w-full opacity-50 select-none"
+          className="-z-[1] absolute absolute-center w-full opacity-50"
         />
       </div>
       <Features />
