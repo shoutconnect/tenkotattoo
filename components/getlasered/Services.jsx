@@ -24,7 +24,7 @@ export default function Services() {
           for cover-ups, serving Lancashire and the wider North West of England.
           <br />
           <br />
-          <span className="font-bold text-neutral-900">
+          <span className="font-bold text-neutral-800">
             {" "}
             <span className="text-tenko">
               At Tenko Tattoo, we understand that every tattoo has its own story
@@ -37,7 +37,7 @@ export default function Services() {
           effective technology for removing multi-coloured tattoos, ensuring
           reliable and predictable results. <br />
           <br />
-          <span className="font-bold text-neutral-900">
+          <span className="font-bold text-neutral-800">
             {" "}
             No matter your reason for seeking tattoo removal, Tenko Tattoo is
             here to help you achieve a fresh start with professional and

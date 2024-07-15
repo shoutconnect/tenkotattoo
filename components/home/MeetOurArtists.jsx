@@ -6,21 +6,21 @@ export default function MeetOurArtists() {
   const artists = [
     {
       name: "Dorisu",
-      instagram: "/insta",
-      portfolio: "/link",
-      picture: "/Artists (3).png",
+      instagram: "https://www.instagram.com/dorisu_tattoo/",
+      portfolio: "/artists/doris",
+      picture: "/doris/26th May - 4.jpg",
     },
     {
       name: "Sian",
-      instagram: "/insta",
-      portfolio: "/link",
-      picture: "/Artists (1).png",
+      instagram: "https://www.instagram.com/sian.tattoo/",
+      portfolio: "/artists/sian",
+      picture: "/sian/26th May - 4.jpg",
     },
     {
       name: "Takey",
-      instagram: "/insta",
-      portfolio: "/link",
-      picture: "/Artists (2).png",
+      instagram: "https://www.instagram.com/takeytattoo.uk/",
+      portfolio: "/artists/takey",
+      picture: "/takey/26th May - 3.jpg",
     },
   ];
   return (
@@ -34,16 +34,18 @@ export default function MeetOurArtists() {
         <Image
           src="/Table.svg"
           alt="Table"
+          draggable="false"
           width={100}
           height={100}
           className="w-52 h-auto object-cover"
         />
         <Image
-          src="/Meet our artists bg.png"
+          src="/TENKO - Calligraphy (alternative).png"
           alt="Meet our artists bg"
+          draggable="false"
           width={600}
           height={600}
-          className="absolute absolute-center -z-1 h-80 max-sm:h-64 w-auto object-cover"
+          className="absolute absolute-center -z-1 h-80 max-sm:h-64 w-auto object-cover opacity-10"
         />
       </div>
       <p>
@@ -56,15 +58,17 @@ export default function MeetOurArtists() {
             key={index}
             className="group relative bg-white pt-3 shadow-xl shadow-neutral-100 hover:shadow-[rgba(237,2,140,0.05)] group hover:rotate-6 my-transition flex flex-col items-end"
           >
-            <Link href={artist.portfolio}>
-              {" "}
-              <Image
-                src={artist.picture}
-                alt="Artists"
-                width={500}
-                height={500}
-                className="h-72 w-auto px-3 object-cover"
-              />
+            <Link href={artist.portfolio} className="h-72 w-full px-3">
+              <div className="overflow-hidden">
+                <Image
+                  src={artist.picture}
+                  alt="Artists"
+                  draggable="false"
+                  width={1000}
+                  height={1000}
+                  className="h-72 w-full object-cover aspect-square group-hover:scale-125 my-transition select-none"
+                />
+              </div>
             </Link>
             <div className="bg-tenko flex mt-3 h-auto">
               <Link href={artist.portfolio}>
@@ -77,7 +81,7 @@ export default function MeetOurArtists() {
               <Link
                 href={artist.instagram}
                 target="_blank"
-                className="flex items-center justify-center h-[45px] aspect-square bg-neutral-900"
+                className="flex items-center justify-center h-[45px] aspect-square bg-neutral-800"
               >
                 {" "}
                 <FaInstagram className="h-44 text-neutral-50" />
@@ -87,12 +91,18 @@ export default function MeetOurArtists() {
         ))}
       </div>
       <div className="flex max-lg:flex-col gap-20 max-lg:gap-8">
-        <p className="uppercase font-extrabold text-neutral-900">
-          apply for a <span className="text-tenko">residency</span> position{" "}
-        </p>
-        <p className="uppercase font-extrabold text-neutral-900">
-          <span className="text-tenko">guest </span> with tenko tattoo
-        </p>
+        <Link href="/contact" className="group my-transition">
+          <p className="uppercase font-extrabold text-neutral-800">
+            apply for a <span className="text-tenko underline">residency</span>{" "}
+            position{" "}
+          </p>
+        </Link>
+        <Link href="contact" className="group">
+          <p className="uppercase font-extrabold text-neutral-800">
+            <span className="text-tenko underline">guest</span> with tenko
+            tattoo
+          </p>
+        </Link>
       </div>
     </div>
   );

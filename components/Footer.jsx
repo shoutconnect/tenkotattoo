@@ -5,21 +5,21 @@ import { DataStudio } from "@/data/DataStudio";
 
 const navigation = {
   studio: [
-    { name: "About our studio", href: "/about" },
-    { name: "Enquiries", href: "/enquiries" },
-    { name: "Contact", href: "/contact" },
-    { name: "FAQ", href: "/faq" },
+    { name: "Get Tattooed", href: "/get-tattooed" },
+    { name: "Laser Removal", href: "/laser-removal" },
+    { name: "Artists", href: "/artists" },
   ],
   artists: [
     { name: "Dorisu Tattoo", href: "/artists/dorisu-tattoo" },
     { name: "Sian Tattoo", href: "/artists/sian-tattoo" },
     { name: "Takey Tattoo", href: "/artists/takey-tattoo" },
-    { name: "Join our team", href: "/join-our-team" },
   ],
   important: [
-    { name: "Tattoo aftercare", href: "/tattoo-aftercare" },
-    { name: "Terms & conditions", href: "/terms-and-conditions" },
-    { name: "Cookies policy", href: "/cookies-policy" },
+    { name: "Tattoo Aftercare", href: "/aftercare" },
+    { name: "Contact", href: "/contact" },
+    { name: "FAQ", href: "/faq" },
+    // { name: "Terms & conditions", href: "/terms-and-conditions" },
+    // { name: "Cookies policy", href: "/cookies-policy" },
   ],
 
   social: [
@@ -38,7 +38,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="relative z-50 bg-neutral-900">
+    <footer className="relative z-50 bg-neutral-800">
       <div className="margin-x pt-14 pb-7">
         <div className="flex items-start max-md:flex-col max-md:items-center max-md:gap-16 ">
           <div className="">

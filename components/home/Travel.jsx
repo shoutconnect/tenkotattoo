@@ -16,18 +16,41 @@ export default function Travel() {
     {
       icon: "/Travel (1).svg",
       title: "Local Parking",
-      description:
-        "For those arriving by car, you'll find numerous parking options nearby.",
+      description: (
+        <>
+          For those arriving by car, you'll find{" "}
+          <Link
+            href="https://en.parkopedia.co.uk/parking/carpark/st_wilfrids_street/pr1/preston/?arriving=202407151530&leaving=202407151730"
+            className="text-tenko font-bold"
+            target="_blank"
+          >
+            numerous parking options
+          </Link>{" "}
+          nearby.
+        </>
+      ),
     },
     {
       icon: "/Travel (5).svg",
       title: "Hotel",
-      description:
-        "For our clients travelling from afar and seeking local accommodation, we are conveniently situated right beside Premier Inn.",
+      description: (
+        <>
+          For our clients travelling from afar and seeking local accommodation,
+          we are conveniently situated right beside{" "}
+          <Link
+            href="https://www.premierinn.com/gb/en/hotels/england/lancashire/preston/preston-central.html?cid=GLBC_PRECEN"
+            className="text-tenko font-bold"
+            target="_blank"
+          >
+            Premier Inn
+          </Link>
+          .
+        </>
+      ),
     },
   ];
   return (
-    <div className="relative z-10 margin-x margin-y flex flex-col items-center gap-10 text-center">
+    <div className="relative z-10 margin-x margin-y -mt-10 flex flex-col items-center gap-10 text-center">
       <Image
         src="/Travel (2).svg"
         alt="Travel"
@@ -65,13 +88,13 @@ export default function Travel() {
           </div>
         ))}{" "}
       </div>
-      <p className="md:w-[80%] font-bold">
+      {/* <p className="md:w-[80%] font-bold">
         Whilst you’re visiting, check out some of our{" "}
         <Link href="/" target="_blank" className="text-tenko underline">
           recommended restaurants
         </Link>{" "}
-        in the City
-      </p>
+        in Preston/UK
+      </p> */}
     </div>
   );
 }

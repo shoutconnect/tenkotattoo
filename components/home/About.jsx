@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="margin-x relative z-20 flex max-lg:flex-col xl:gap-16 gap-12 sm:-mt-24 max-sm:items-center max-sm:justify-center">
-      <div className="sm:p-10 w-[575px] max-xl:w-[500px] max-sm:w-full max-lg:mx-auto">
+    <div className="margin-x relative z-20 flex max-lg:flex-col xl:gap-16 gap-20 lg:gap-12 sm:-mt-24 max-sm:items-center max-sm:justify-center">
+      <div className="max-md:-mt-10 sm:p-10 w-[575px] max-xl:w-[500px] max-sm:w-full max-lg:mx-auto">
         <div className="relative bg-tenko rounded-full aspect-square w-full max-sm:mb-10">
           <div className="flex flex-col items-center justify-center h-full gap-4 sm:gap-6  py-12">
             {" "}
@@ -12,6 +12,7 @@ export default function About() {
               width={100}
               height={100}
               alt="Flower"
+              draggable="false"
               className="h-10 w-10 max-sm:mb-1"
             />
             <h1 className="relative z-10 text-neutral-50 text-5xl sm:text-7xl lg:text-7xl text-center max-sm:-mb-2">
@@ -33,10 +34,10 @@ export default function About() {
             </p>
             <div className="h-full w-full relative">
               <Image
-                src="/Pink circle.png"
+                src="/TENKO - Calligraphy (alternative).png"
                 width={420}
                 height={420}
-                className="absolute -top-4 left-0 right-0 mx-auto w-72 sm:w-72 md:w-72 lg:w-80 xl:w-96  h-auto"
+                className="absolute left-0 right-0 mx-auto w-40 xl:w-60 h-auto"
                 alt="Pink circle"
                 draggable="false"
               />
@@ -47,6 +48,7 @@ export default function About() {
             alt="Round Japanese Effect SVG"
             width={600}
             height={600}
+            draggable="false"
             className="absolute top-0 left-0 h-full w-full p-5 opacity-40"
           />
         </div>

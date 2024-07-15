@@ -12,13 +12,13 @@ export default function Services() {
       name: "Laser removal",
       description:
         "Safely and effectively eliminate unwanted tattoos with our laser treatment, so you can love your skin again.",
-      icon: "/Home Services Icon (3).svg",
+      icon: "/icons/Laser Removal (white).svg",
     },
   ];
   return (
-    <div className="py-20 ">
+    <div className="py-20 my-12 max-md:mb-24">
       <div className="relative flex flex-col items-center justify-center margin-y ">
-        <div className="relative z-10 max-sm:mt-20 margin-x w-full h-full flex flex-col items-center justify-center gap-6 sm:px-[10%] lg:px-[15%]">
+        <div className="relative z-10 max-sm:mt-10 margin-x w-full h-full flex flex-col items-center justify-center gap-6 sm:px-[10%] lg:px-[15%]">
           <Image
             src="/Home Services Icon (1).svg"
             alt="Services icon"
@@ -27,7 +27,7 @@ export default function Services() {
             className="w-14 h-14 object-cover"
             draggable="false"
           />
-          <h1 className="text-6xl text-neutral-50 font-bold uppercase">
+          <h1 className="text-6xl text-neutral-50 font-bold uppercase text-center">
             Our services
           </h1>
           <p className="text-neutral-50 text-center">
@@ -59,35 +59,11 @@ export default function Services() {
           </div>
         </div>
         <Image
-          src="/Home Services Brush (1).svg"
+          src="/Services BG.svg"
           alt="Services brush bg"
-          width="1100"
-          height="1000"
-          className="mt-2 absolute top-0 left-0 right-0 mx-auto w-auto h-[800px] object-cover"
-          draggable="false"
-        />{" "}
-        <Image
-          src="/Home Services Brush (1).svg"
-          alt="Services brush bg"
-          width="1100"
-          height="1000"
-          className="mt-2 absolute top-0 left-0 right-0 mx-auto w-auto h-[800px] object-cover"
-          draggable="false"
-        />
-        <Image
-          src="/Home Services Brush (2).svg"
-          alt="Services brush bg"
-          width="1100"
-          height="1000"
-          className="mt-2 absolute top-0 left-0 right-0 mx-auto w-auto h-[800px] object-cover"
-          draggable="false"
-        />
-        <Image
-          src="/Home Services Brush (2).svg"
-          alt="Services brush bg"
-          width="1100"
-          height="1000"
-          className="md:hidden mt-2 absolute -bottom-32 left-0 right-0 mx-auto w-auto h-[800px] object-cover"
+          width="1400"
+          height="800"
+          className="mt-2 absolute top-0 left-0 right-0 mx-auto w-auto h-[120%] object-cover"
           draggable="false"
         />
       </div>

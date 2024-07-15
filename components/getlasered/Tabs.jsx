@@ -66,7 +66,7 @@ export default function Tabs() {
         >
           <button
             type="button"
-            className="justify-center hs-tab-active:font-semibold border-neutral-900 hs-tab-active:border-[#ed028c] hs-tab-active:text-[#ed028c] py-4 px-1 inline-flex items-center gap-x-2 border-b-4 text-sm whitespace-nowrap text-neutral-500 hover:text-[#ed028c] focus:outline-none focus:text-[#ed028c] disabled:opacity-50 disabled:pointer-events-none active"
+            className="justify-center hs-tab-active:font-semibold border-neutral-800 hs-tab-active:border-[#ed028c] hs-tab-active:text-[#ed028c] py-4 px-1 inline-flex items-center gap-x-2 border-b-4 text-sm whitespace-nowrap text-neutral-500 hover:text-[#ed028c] focus:outline-none focus:text-[#ed028c] disabled:opacity-50 disabled:pointer-events-none active"
             id="tabs-with-underline-item-1"
             data-hs-tab="#tabs-with-underline-1"
             aria-controls="tabs-with-underline-1"
@@ -76,7 +76,7 @@ export default function Tabs() {
           </button>
           <button
             type="button"
-            className="justify-center hs-tab-active:font-semibold border-neutral-900 hs-tab-active:border-[#ed028c] hs-tab-active:text-[#ed028c] py-4 px-1 inline-flex items-center gap-x-2 border-b-4 text-sm whitespace-nowrap text-neutral-500 hover:text-[#ed028c] focus:outline-none focus:text-[#ed028c] disabled:opacity-50 disabled:pointer-events-none"
+            className="justify-center hs-tab-active:font-semibold border-neutral-800 hs-tab-active:border-[#ed028c] hs-tab-active:text-[#ed028c] py-4 px-1 inline-flex items-center gap-x-2 border-b-4 text-sm whitespace-nowrap text-neutral-500 hover:text-[#ed028c] focus:outline-none focus:text-[#ed028c] disabled:opacity-50 disabled:pointer-events-none"
             id="tabs-with-underline-item-2"
             data-hs-tab="#tabs-with-underline-2"
             aria-controls="tabs-with-underline-2"
@@ -86,7 +86,7 @@ export default function Tabs() {
           </button>
           <button
             type="button"
-            className="justify-center hs-tab-active:font-semibold border-neutral-900 hs-tab-active:border-[#ed028c] hs-tab-active:text-[#ed028c] py-4 px-1 inline-flex items-center gap-x-2 border-b-4 text-sm whitespace-nowrap text-neutral-500 hover:text-[#ed028c] focus:outline-none focus:text-[#ed028c] disabled:opacity-50 disabled:pointer-events-none"
+            className="justify-center hs-tab-active:font-semibold border-neutral-800 hs-tab-active:border-[#ed028c] hs-tab-active:text-[#ed028c] py-4 px-1 inline-flex items-center gap-x-2 border-b-4 text-sm whitespace-nowrap text-neutral-500 hover:text-[#ed028c] focus:outline-none focus:text-[#ed028c] disabled:opacity-50 disabled:pointer-events-none"
             id="tabs-with-underline-item-3"
             data-hs-tab="#tabs-with-underline-3"
             aria-controls="tabs-with-underline-3"

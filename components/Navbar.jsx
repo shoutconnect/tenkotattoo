@@ -23,7 +23,7 @@ export default function Navbar() {
         <NavBanner />
         <div className="py-0 relative z-10">
           <nav className="margin-x w-full flex justify-between items-start flex-wrap  lg:flex-nowrap text-sm py-4">
-            <Logo css="h-20 w-auto" black />
+            <Logo css="h-16 md:h-20 w-auto" black />
             <div className="lg:hidden">
               <button
                 type="button"
