@@ -37,7 +37,7 @@ export default function Hero() {
           />
           Your browser does not support the video tag.
         </video>
-        <div className="aspect-video absolute z-0 top-0 left-0 right-0 mx-auto w-full h-full object-cover bg-neutral-800 opacity-80" />
+        <div className="aspect-video absolute z-0 top-0 left-0 right-0 mx-auto w-full h-full object-cover bg-neutral-900 opacity-80" />
       </div>
     </div>
   );
