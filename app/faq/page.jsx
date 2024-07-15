@@ -90,7 +90,7 @@ export default function Faq() {
             </h1>
           </div>
         </>
-        image={StudioImg[2]}
+        image="/first photoshoot/Tenko Tattoo (4).jpg"
       />
       <div className="relative">
         <Image

@@ -6,8 +6,9 @@ export default function Features() {
       title: "Cover Up Offer",
       description: (
         <>
-          We’re offering a <span className="link-tenko">20% discount</span> on
-          laser packages for clients booking a cover-up tattoo at Tenko Tattoo.
+          We’re offering a{" "}
+          <span className="text-tenko font-bold">20% discount</span> on laser
+          packages for clients booking a cover-up tattoo at Tenko Tattoo.
         </>
       ),
     },

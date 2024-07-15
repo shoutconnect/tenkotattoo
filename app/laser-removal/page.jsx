@@ -19,7 +19,7 @@ export default function LaserRemoval() {
             </h1>
           </div>
         </>
-        image={StudioImg[2]}
+        image="/first photoshoot/Tenko Tattoo (11).jpg"
       />
 
       <Services />
