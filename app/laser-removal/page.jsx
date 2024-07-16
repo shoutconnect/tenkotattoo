@@ -46,16 +46,12 @@ export default function LaserRemoval() {
           </span>{" "}
         </p>
         <iframe
-          src="
-https://www.cognitoforms.com/f/0RwzHuYrgkimJq8sYGUzwQ/4"
+          src="https://www.cognitoforms.com/f/0RwzHuYrgkimJq8sYGUzwQ/4"
           height="450"
           width="100%"
           className=""
         ></iframe>
-        <script
-          src="
-https://www.cognitoforms.com/f/iframe.js"
-        ></script>
+        <script src="https://www.cognitoforms.com/f/iframe.js"></script>
       </div>
       <CTA />
     </main>

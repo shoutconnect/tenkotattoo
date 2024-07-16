@@ -63,7 +63,7 @@ export default function About() {
           Japanese folklore and the <span className="text-tenko">art</span> of
           modern tattooing come together.
         </h4>
-        <p className="text-neutral-300">
+        <p className="text-neutral-400">
           Inspired by the celestial Tenko fox, our studio believes that every
           tattoo is a transformative experience, a mark of both personal and
           spiritual growth.
