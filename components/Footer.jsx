@@ -13,6 +13,7 @@ const navigation = {
     { name: "Dorisu Tattoo", href: "/artists/doris" },
     { name: "Sian Tattoo", href: "/artists/sian" },
     { name: "Takey Tattoo", href: "/artists/takey" },
+    { name: "Residence & Guest Artists", href: "/residence-guest-artists" },
   ],
   important: [
     { name: "Tattoo Aftercare", href: "/aftercare" },
