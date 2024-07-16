@@ -59,7 +59,7 @@ export const DataArtist = [
     instagramURL: "https://www.instagram.com/takeytattoo.uk/",
     phone: "/",
     email: "/",
-    tags: ["Tag", "Tag", "Tag", "Tag"],
+    tags: ["Fine Line", "Oriental", "Calligraphy"],
     picture: [
       "/takey/26th May - 5.jpg",
       "/takey/26th May - 3.jpg",

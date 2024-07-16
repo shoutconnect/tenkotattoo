@@ -7,6 +7,9 @@ export const metadata = {
   title: "Tenko Tattoo",
   description:
     "Located in the heart of Preston/UK, our tattoo studio offers a diverse range of styles and services to bring your tattoo vision to life. Experience top-quality artistry and professional service in a welcoming environment.",
+  openGraph: {
+    images: "/images/logos/Tenko PNG.png",
+  },
 };
 
 export default function RootLayout({ children }) {
