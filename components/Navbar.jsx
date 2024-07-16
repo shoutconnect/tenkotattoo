@@ -29,7 +29,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className="fixed z-[99999] bg-neutral-50 border-b-[1px] border-neutral-50 backdrop-blur-md w-full">
+      <div className="fixed z-[99999] top-0 bg-neutral-50 border-b-[1px] border-neutral-50 backdrop-blur-md w-full">
         <NavBanner />
         <div className="py-0 relative z-10">
           <nav className="margin-x w-full flex justify-between items-start flex-wrap lg:flex-nowrap text-sm py-4">
