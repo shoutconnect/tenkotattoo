@@ -93,15 +93,13 @@ export default function Services() {
         <div>
           <p className="text-neutral-400">
             If you’re ready to make a difference and contribute to our mission,
-            send your resume and a portfolio of your work on the form bellow.
-            Tell us about your experience and why you’d be a great fit for Tenko
-            Tattoo.
+            send your resume and cover letter using the form below. Tell us
+            about your experience and why you’d be a great fit for Tenko Tattoo.
             <br />
             <br />
             <span className="font-bold text-white">
               {" "}
-              Join us in creating lasting art and unforgettable experiences. We
-              can't wait to work with you!
+              We can't wait to work with you!
             </span>
           </p>
         </div>
