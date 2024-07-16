@@ -19,8 +19,6 @@ export default function ResidenceGuestArtist() {
         image="/first photoshoot/Tenko Tattoo (11).jpg"
       />
 
-      <Services />
-
       <Image
         src="/Bg Brush.svg"
         alt="Brush stroke"
@@ -29,7 +27,7 @@ export default function ResidenceGuestArtist() {
         draggable="false"
         className="-z-[10] absolute absolute-center w-full min-w-[1000px] opacity-50"
       />
-      <section className="margin-x">
+      <section className="margin-x margin-y">
         {" "}
         <iframe
           src="
