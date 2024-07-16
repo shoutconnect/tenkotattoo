@@ -26,6 +26,7 @@ https://www.cognitoforms.com/f/0RwzHuYrgkimJq8sYGUzwQ/7"
               width="100%"
               className="w-full"
               id="discuss"
+              title="Discussion Form"
             ></iframe>
             <script
               src="

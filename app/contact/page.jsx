@@ -44,17 +44,26 @@ export default function Contact() {
                 timeframe for your desired tattoo.
               </span>
             </p>
-            <iframe
-              src="
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
+              <iframe
+                src="
 https://www.cognitoforms.com/f/0RwzHuYrgkimJq8sYGUzwQ/4"
-              height="450"
-              width="100%"
-              className=""
-            ></iframe>
-            <script
-              src="
+                height="450"
+                width="100%"
+                className="w-full"
+              ></iframe>
+              <script
+                src="
 https://www.cognitoforms.com/f/iframe.js"
-            ></script>
+              ></script>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9434.925802486787!2d-2.704009!3d53.7586648!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b734d7bbf0133%3A0xc9ddb9f6f5578a2f!2sTenko%20Tattoo!5e0!3m2!1sen!2suk!4v1721131320538!5m2!1sen!2suk"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                className="w-full h-[450px]"
+              ></iframe>
+            </div>
           </div>
         </div>{" "}
       </div>

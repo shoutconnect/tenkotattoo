@@ -4,6 +4,7 @@ import Description from "@/components/faq/Description";
 import CTA from "@/components/home/CTA";
 import { StudioImg } from "@/data/DataImages";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Faq() {
   const faq = [
@@ -36,22 +37,20 @@ export default function Faq() {
     },
     {
       question: "How do I care for my new tattoo?",
-      answer:
-        "For detailed aftercare instructions, please refer to the aftercare page on our website.",
-    },
-    {
-      question: "What is the healing process like for a tattoo?",
-      answer:
-        "The healing process can vary depending on the tattoo’s size, detail, and colour. Generally, we advise allowing up to two weeks before resuming normal activities.",
-    },
-    {
-      question: "Can I get a tattoo if I’m pregnant or breastfeeding?",
-      answer: "We will not tattoo anyone who is pregnant or breastfeeding.",
+      answer: (
+        <>
+          For detailed aftercare instructions, please refer to the{" "}
+          <Link href="/aftercare" className="link-tenko">
+            aftercare page
+          </Link>{" "}
+          on our website.
+        </>
+      ),
     },
     {
       question: "Do you offer cover-up tattoos?",
       answer:
-        "Yes, our artists offer cover-up services. Depending on the existing tattoo, you may need laser removal treatment before a cover-up can be done. Tenko Tattoo offers a 20% discount on laser removal services when booking a cover-up with one of our artists.",
+        "Yes, our artists offer cover-up services. Depending on the existing tattoo, you may need laser removal treatment before a cover-up can be done. Tenko Tattoo will soon offer a 20% discount on laser removal services when booking a cover-up with one of our artists.",
     },
     {
       question: "What if I need to cancel or reschedule my appointment?",

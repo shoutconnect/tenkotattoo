@@ -29,7 +29,8 @@ export default function ArtistsVideo({ artist }) {
             />
             Your browser does not support the video tag.
           </video>
-          <div className="aspect-video absolute z-0 top-0 left-0 right-0 mx-auto w-full h-full object-cover bg-neutral-900 opacity-80" />
+          <div className="aspect-video absolute z-0 top-0 left-0 right-0 mx-auto w-full h-full object-cover bg-gradient-to-br from-neutral-950 via-neutral-950/50 to-transparent opacity-40" />
+          <div className="aspect-video absolute z-0 top-0 left-0 right-0 mx-auto w-full h-full object-cover bg-gradient-to-br from-neutral-950 via-neutral-950/50 to-transparent opacity-90" />
         </div>
       </div>{" "}
     </div>

@@ -7,7 +7,7 @@ const navigation = {
   studio: [
     { name: "Get Tattooed", href: "/get-tattooed" },
     { name: "Laser Removal", href: "/laser-removal" },
-    { name: "Artists", href: "/artists" },
+    { name: "Work with Tenko", href: "/work-with-tenko" },
   ],
   artists: [
     { name: "Dorisu Tattoo", href: "/artists/doris" },

@@ -82,6 +82,7 @@ export default function MeetOurArtists() {
                 href={artist.instagram}
                 target="_blank"
                 className="flex items-center justify-center h-[45px] aspect-square bg-neutral-800"
+                aria-label="Instagram icon"
               >
                 {" "}
                 <FaInstagram className="h-44 text-neutral-50" />
