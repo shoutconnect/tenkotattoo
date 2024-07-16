@@ -8,12 +8,12 @@ const navigation = {
     { name: "Get Tattooed", href: "/get-tattooed" },
     { name: "Laser Removal", href: "/laser-removal" },
     { name: "Work with Tenko", href: "/work-with-tenko" },
+    { name: "Residence & Guest Artists", href: "/residence-guest-artists" },
   ],
   artists: [
     { name: "Dorisu Tattoo", href: "/artists/doris" },
     { name: "Sian Tattoo", href: "/artists/sian" },
     { name: "Takey Tattoo", href: "/artists/takey" },
-    { name: "Residence & Guest Artists", href: "/residence-guest-artists" },
   ],
   important: [
     { name: "Tattoo Aftercare", href: "/aftercare" },

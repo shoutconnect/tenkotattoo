@@ -92,13 +92,13 @@ export default function MeetOurArtists() {
         ))}
       </div>
       <div className="flex max-lg:flex-col gap-20 max-lg:gap-8">
-        <Link href="/work-with-tenko" className="group my-transition">
+        <Link href="/residence-guest-artists" className="group my-transition">
           <p className="uppercase font-extrabold text-neutral-800">
             apply for a <span className="text-tenko underline">residency</span>{" "}
             position{" "}
           </p>
         </Link>
-        <Link href="/work-with-tenko" className="group">
+        <Link href="/residence-guest-artists" className="group">
           <p className="uppercase font-extrabold text-neutral-800">
             <span className="text-tenko underline">guest</span> with tenko
             tattoo
