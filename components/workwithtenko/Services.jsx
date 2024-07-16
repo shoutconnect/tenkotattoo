@@ -69,19 +69,20 @@ export default function Services() {
       <div className="mt-16">
         <p>
           <span className="font-bold text-neutral-800">
-            {" "}
             <span className="text-tenko">
               At Tenko Tattoo, we're passionate about the art of tattooing and
               helping people express their unique stories through beautiful,
               custom designs.
             </span>{" "}
-            Our mission is to provide exceptional artistry, personalized
-            service, and a welcoming environment for every client.
+            You don't just need to be a tattoo artist to be involved in the
+            tattoo scene.
           </span>{" "}
           <br />
           <br />
-          If you're enthusiastic about the tattoo industry and eager to make a
-          positive impact, we'd love to hear from you!
+          We're always looking for skilled individuals keen to get involved and
+          express their own creativity in a variety of positions. Explore our
+          current job openings below and see if there's a role that matches your
+          passion and skills.
         </p>
       </div>{" "}
       <div className="relative z-30 bg-neutral-800 p-10 space-y-5 md:-mt-16">
@@ -98,8 +99,8 @@ export default function Services() {
             <br />
             <br />
             <span className="font-bold text-white">
-              {" "}
-              We can't wait to work with you!
+              Join us at Tenko Tattoo and become a part of our vibrant, creative
+              team. We can't wait to work with you!
             </span>
           </p>
         </div>
