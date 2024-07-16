@@ -35,17 +35,17 @@ export default function MeetOurArtists() {
           src="/Table.svg"
           alt="Table"
           draggable="false"
-          width={100}
-          height={100}
-          className="w-52 h-auto object-cover"
+          width={230}
+          height={80}
+          className="w-52 h-auto object-cover select-none"
         />
         <Image
           src="/TENKO - Calligraphy (alternative).png"
           alt="Meet our artists bg"
           draggable="false"
-          width={600}
-          height={600}
-          className="absolute absolute-center -z-1 h-80 max-sm:h-64 w-auto object-cover opacity-10"
+          width={350}
+          height={350}
+          className="absolute absolute-center -z-1 h-80 max-sm:h-64 w-auto object-cover opacity-10 select-none"
         />
       </div>
       <p>
