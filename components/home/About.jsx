@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="margin-x relative z-20 flex max-lg:flex-col xl:gap-16 gap-20 lg:gap-12 sm:-mt-24 max-sm:items-center max-sm:justify-center">
+    <div className="margin-x relative z-20 flex max-lg:flex-col xl:gap-16 gap-20 max-sm:gap-8 lg:gap-12 sm:-mt-24 max-sm:items-center max-sm:justify-center">
       <div className="max-md:-mt-10 sm:p-10 w-[575px] max-xl:w-[500px] max-sm:w-full max-lg:mx-auto">
         <div className="relative bg-tenko rounded-full aspect-square w-full max-sm:mb-10">
           <div className="flex flex-col items-center justify-center h-full gap-4 sm:gap-6  py-12">
@@ -27,7 +27,7 @@ export default function About() {
                 className="absolute -top-20 sm:-top-28 max-sm:right-12 right-4 w-[500px] sm:w-[550px] h-auto"
               />
             </div>
-            <p className="relative z-10 text-neutral-50 font-bold w-[85%] text-center md:-mt-4">
+            <p className=" max-sm:text-sm relative z-10 text-neutral-50 font-bold w-[85%] text-center md:-mt-4">
               Upon reaching 1,000 years old and gaining its ninth tail, a
               kitsune turns white or golden, becoming a Tenko, the most powerful
               form of the kitsune, and ascends to the heavens.
