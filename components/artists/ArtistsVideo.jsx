@@ -2,7 +2,7 @@ export default function ArtistsVideo({ artist }) {
   return (
     <div className=" pt-[160px]">
       <div className="max-md:-mt-10 md:py-6">
-        <div className="margin-x relative flex items-center justify-center h-[550px] md:h-auto">
+        <div className="margin-x relative flex items-center justify-center h-[550px] md:h-auto bg-neutral-950">
           <div className="relative md:px-10 z-10 margin-y flex flex-col items-start justify-center w-full h-[700px]">
             <h1 className="text-7xl lg:text-8xl xl:text-9xl text-tenko">
               Wisdom
