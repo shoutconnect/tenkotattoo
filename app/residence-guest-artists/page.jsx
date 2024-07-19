@@ -1,6 +1,7 @@
 import Services from "@/components/residence/Services";
 import PageHeader from "@/components/UI/PageHeader";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function ResidenceGuestArtist() {
   return (
@@ -36,10 +37,10 @@ https://www.cognitoforms.com/f/0RwzHuYrgkimJq8sYGUzwQ/10"
           height="592"
           className="w-full mb-20"
         ></iframe>
-        <script
+        <Script
           src="
 https://www.cognitoforms.com/f/iframe.js"
-        ></script>
+        ></Script>
       </section>
     </main>
   );

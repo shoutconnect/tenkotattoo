@@ -2,6 +2,7 @@ import PageHeader from "@/components/UI/PageHeader";
 import CTA from "@/components/home/CTA";
 import Services from "@/components/workwithtenko/Services";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function WorkWithTenko() {
   const steps = [
@@ -152,10 +153,10 @@ export default function WorkWithTenko() {
           height="592"
           className="w-full mb-20 mt-10 margin-x"
         ></iframe>
-        <script
+        <Script
           src="
 https://www.cognitoforms.com/f/iframe.js"
-        ></script>
+        ></Script>
       </section>
     </main>
   );

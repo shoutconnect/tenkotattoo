@@ -40,16 +40,30 @@ export const DataArtist = [
     name: "Sian",
     url: "/artists/sian",
     logo: "",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-
+    description: (
+      <>
+        Sian began tattooing two years ago, and within this time, she has honed
+        and defined her unique style. Embracing creativity in all its forms, she
+        prefers to work with black and grey, specialising in intricate dot work
+        designs.
+        <br />
+        <br /> Her dot work tattoos are characterised by their delicate details
+        and stunning textures, as seen in her beautiful floral and geometric
+        patterns. She also loves to tattoo bold ornamental designs and is keen
+        to take on more large scale projects of this nature. <br />
+        <br />
+        In her spare time, Sian loves to indulge more in tattoo culture and
+        visits many tattoo conventions while using this as an opportunity to
+        travel and visit new places.
+      </>
+    ),
     facebook: "/",
     facebookURL: "/",
     instagram: "@sian.tattoo",
     instagramURL: "https://www.instagram.com/sian.tattoo/",
     phone: "/",
     email: "/",
-    tags: ["Tag", "Tag", "Tag", "Tag"],
+    tags: ["Blackwork", "Ornamental", "Dotwork"],
     picture: [
       "/sian/26th May - 5.jpg",
       "/sian/26th May - 3.jpg",

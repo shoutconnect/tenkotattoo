@@ -6,6 +6,7 @@ import Tabs from "@/components/getlasered/Tabs";
 import CTA from "@/components/home/CTA";
 import { StudioImg } from "@/data/DataImages";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function LaserRemoval() {
   return (
@@ -51,7 +52,7 @@ export default function LaserRemoval() {
           width="100%"
           className=""
         ></iframe>
-        <script src="https://www.cognitoforms.com/f/iframe.js"></script>
+        <Script src="https://www.cognitoforms.com/f/iframe.js"></Script>
       </div>
       <CTA />
     </main>

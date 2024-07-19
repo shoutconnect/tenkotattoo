@@ -4,6 +4,7 @@ import Tabs from "@/components/gettattooed/Tabs";
 import CTA from "@/components/home/CTA";
 import { StudioImg } from "@/data/DataImages";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function GetTattooed() {
   return (
@@ -64,10 +65,10 @@ https://www.cognitoforms.com/f/0RwzHuYrgkimJq8sYGUzwQ/8"
               width="100%"
               className=""
             ></iframe>
-            <script
+            <Script
               src="
 https://www.cognitoforms.com/f/iframe.js"
-            ></script>
+            ></Script>
           </div>
         </div>{" "}
         <Image
