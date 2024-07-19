@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="margin-x relative z-20 flex max-lg:flex-col xl:gap-16 gap-20 max-sm:gap-8 lg:gap-12 sm:-mt-24 max-sm:items-center max-sm:justify-center">
-      <div className="max-md:-mt-10 sm:p-10 w-[575px] max-xl:w-[500px] max-sm:w-full max-lg:mx-auto">
+    <div className="margin-x relative z-20 flex max-lg:flex-col xl:gap-16 gap-20 max-sm:gap-12 lg:gap-12 sm:-mt-24 max-sm:items-center max-sm:justify-center">
+      <div className="max-sm:hidden max-md:-mt-10 sm:p-10 w-[575px] max-xl:w-[500px] max-sm:w-full max-lg:mx-auto">
         <div className="relative bg-tenko rounded-full aspect-square w-full max-sm:mb-10">
           <div className="flex flex-col items-center justify-center h-full gap-4 sm:gap-6  py-12">
             {" "}
@@ -53,6 +53,23 @@ export default function About() {
           />
         </div>
         <div className="lg:hidden w-full h-full " />
+      </div>
+      <div className="relative -mt-16">
+        <Image
+          src="/Tenko Circle (no text).svg"
+          width={600}
+          height={600}
+          alt="Tenko Circle"
+          className="w-full h-auto sm:hidden"
+        />
+        <Image
+          src="/TENKO - Calligraphy (alternative).png"
+          width={420}
+          height={420}
+          className="absolute -bottom-16 left-0 right-0 mx-auto w-[100px] h-auto"
+          alt="Pink circle"
+          draggable="false"
+        />
       </div>
       <div className="bg-neutral-800 lg:w-[90%] p-10 space-y-5 max-md:mt-10">
         <h6 className="text-neutral-50 text-base max-sm:text-sm">
