@@ -6,8 +6,8 @@ export const DataArtist = [
     description: (
       <>
         Meet Doris, with over 7 years of experience tattooing, Doris has defined
-        her unique style as an artist. Specialising in pop-culture, anime, neo
-        traditional and the occasional blackwork.
+        her unique style as an artist. Specialising in Pop-Culture, Anime, Neo
+        Traditional and the occasional Blackwork.
         <br />
         <br />
         When not tattooing, Doris loves to get creative with making jewellery,
@@ -16,7 +16,7 @@ export const DataArtist = [
         <br />
         Heavily influenced by Japanese art, her vision when creating Tenko
         Tattoo was inspired by everything she really loves about the folklore
-        and creativity of Japanese culture.
+        and creativity of Japanese Culture.
       </>
     ),
     facebook: "@dorisu_tattoo",
