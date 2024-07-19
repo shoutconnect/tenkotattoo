@@ -54,7 +54,7 @@ export default function About() {
         </div>
         <div className="lg:hidden w-full h-full " />
       </div>
-      <div className="relative -mt-16">
+      <div className="relative -mt-16 sm:hidden">
         <Image
           src="/Tenko Circle (no text).svg"
           width={600}
@@ -66,7 +66,7 @@ export default function About() {
           src="/TENKO - Calligraphy (alternative).png"
           width={420}
           height={420}
-          className="absolute -bottom-16 left-0 right-0 mx-auto w-[100px] h-auto"
+          className="absolute -bottom-16 left-0 right-0 mx-auto w-[100px] h-auto sm:hidden"
           alt="Pink circle"
           draggable="false"
         />
