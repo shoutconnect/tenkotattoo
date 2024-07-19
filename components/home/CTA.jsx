@@ -5,7 +5,7 @@ export default function CTA() {
   return (
     <div className="relative margin-y bg-tenko">
       <div className="margin-x">
-        <div className="max-lg:p-4 relative z-10 w-full h-full gap-12 grid max-sm:grid-cols-1 max-md:grid-cols-2 grid-cols-4">
+        <div className="max-lg:p-4 relative z-10 w-full h-full gap-12 max-sm:flex max-sm:flex-col sm:grid max-sm:grid-cols-1 max-md:grid-cols-2 grid-cols-4">
           <div className="">
             <div className="md:col-span-1" />
             <h2 className="text-neutral-50 mb-6">

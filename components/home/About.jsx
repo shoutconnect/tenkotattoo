@@ -13,9 +13,9 @@ export default function About() {
               height={100}
               alt="Flower"
               draggable="false"
-              className="h-10 w-10 max-sm:mb-1"
+              className="size-6 sm:h-10 sm:w-10 max-sm:mb-4 -mt-6"
             />
-            <h1 className="relative z-10 text-neutral-50 text-5xl sm:text-7xl lg:text-7xl text-center max-sm:-mb-2">
+            <h1 className="relative z-10 text-neutral-50 text-3xl sm:text-7xl lg:text-7xl text-center max-sm:-mb-2">
               Tenko
             </h1>
             <div className="relative w-[550px]">
@@ -24,10 +24,10 @@ export default function About() {
                 alt="Brush Stroke"
                 width={600}
                 height={600}
-                className="absolute -top-20 sm:-top-28 max-sm:right-12 right-4 w-[500px] sm:w-[550px] h-auto"
+                className="absolute -top-[66px] sm:-top-28 max-sm:right-20 right-4 w-[400px] sm:w-[550px] h-auto"
               />
             </div>
-            <p className=" max-sm:text-sm relative z-10 text-neutral-50 font-bold w-[85%] text-center md:-mt-4">
+            <p className="max-sm:text-sm relative z-10 text-neutral-50 font-bold max-sm:w-[80%] w-[85%] text-center md:-mt-4">
               Upon reaching 1,000 years old and gaining its ninth tail, a
               kitsune turns white or golden, becoming a Tenko, the most powerful
               form of the kitsune, and ascends to the heavens.
@@ -37,7 +37,7 @@ export default function About() {
                 src="/TENKO - Calligraphy (alternative).png"
                 width={420}
                 height={420}
-                className="absolute left-0 right-0 mx-auto w-40 xl:w-60 h-auto"
+                className="absolute left-0 right-0 mx-auto w-40 xl:w-60  h-auto"
                 alt="Pink circle"
                 draggable="false"
               />
