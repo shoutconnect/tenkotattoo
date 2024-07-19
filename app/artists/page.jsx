@@ -1,5 +1,6 @@
 import PageHeader from "@/components/UI/PageHeader";
 import ArtistsCard from "@/components/artists/Artists";
+import ArtistsCardVideo from "@/components/artists/ArtistsCardVideo";
 import CTA from "@/components/home/CTA";
 import { DataArtist } from "@/data/DataArtist";
 import { StudioImg } from "@/data/DataImages";
@@ -71,7 +72,8 @@ export default function Artists() {
         />
         <div className="margin-x">
           {DataArtist.map((artist, i) => (
-            <ArtistsCard key={i} artist={artist} />
+            // <ArtistsCard key={i} artist={artist} />
+            <ArtistsCardVideo key={i} artist={artist} />
           ))}
         </div>
       </section>

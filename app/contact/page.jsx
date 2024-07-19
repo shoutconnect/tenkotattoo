@@ -34,17 +34,6 @@ export default function Contact() {
       <div className="mt-20">
         <div className="pb-10">
           <div className="margin-x relative z-10">
-            <p className="text-center mb-10 pt-10">
-              <span className="font-bold">
-                Please complete the form in its entirety.
-              </span>{" "}
-              <br />
-              <span className="opacity-70">
-                {" "}
-                This ensures our artists can provide an accurate quote and
-                timeframe for your desired tattoo.
-              </span>
-            </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
               <iframe
                 src="

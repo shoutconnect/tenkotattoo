@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Logo from "./UI/Logo";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { DataStudio } from "@/data/DataStudio";
 
 const navigation = {
@@ -8,7 +8,7 @@ const navigation = {
     { name: "Get Tattooed", href: "/get-tattooed" },
     { name: "Laser Removal", href: "/laser-removal" },
     { name: "Work with Tenko", href: "/work-with-tenko" },
-    { name: "Residence & Guest Artists", href: "/residence-guest-artists" },
+    { name: "Resident & Guest Artists", href: "/resident-guest-artists" },
   ],
   artists: [
     { name: "Dorisu Tattoo", href: "/artists/doris" },
@@ -33,6 +33,11 @@ const navigation = {
       name: "Instagram",
       href: DataStudio.instagramURL,
       icon: FaInstagram,
+    },
+    {
+      name: "Tiktok",
+      href: DataStudio.tiktokURL,
+      icon: FaTiktok,
     },
   ],
 };

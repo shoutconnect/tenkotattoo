@@ -1,21 +1,9 @@
 import PageHeader from "@/components/UI/PageHeader";
-import CTA from "@/components/home/CTA";
 import Services from "@/components/workwithtenko/Services";
 import Image from "next/image";
 import Script from "next/script";
 
 export default function WorkWithTenko() {
-  const steps = [
-    {
-      id: "tabs-with-underline-1",
-      step: "Residence/Guest Artist",
-    },
-    {
-      id: "tabs-with-underline-2",
-      step: "Title 2",
-    },
-  ];
-
   return (
     <main className="relative">
       <PageHeader
@@ -61,12 +49,12 @@ export default function WorkWithTenko() {
                   Content Creator
                   <br />
                   <span className="font-bold text-white">Location:</span>{" "}
-                  Between our Tattoo Studio and Office, with Remote
+                  Between our Tattoo Studio and Office
                   <br />
                   <span className="font-bold text-white">
                     Flexibility Days:
                   </span>{" "}
-                  3-5 days per week, flexible
+                  3-5 days per week
                   <br />
                   <br />{" "}
                   <span className="font-bold text-white">
@@ -120,15 +108,62 @@ export default function WorkWithTenko() {
                   <br />
                   <span className="text-white pl-6">•</span> Develop artist
                   videos to showcase the talent and work of our team. <br />
-                  <br />A strong understanding of digital marketing and managing
-                  paid campaigns on social media is a plus but not essential.
+                  <span className="text-white pl-6">•</span> Make contact with
+                  previous clients, encouraging them to post reviews and promote
+                  the studio and artists.
+                  <br /> <br />A strong understanding of digital marketing and
+                  managing paid campaigns on social media is a plus but not
+                  essential.
+                  <br />
+                  <br />{" "}
+                  <span className="font-bold text-white">
+                    🚀 Upskilling Opportunities:
+                  </span>
+                  <br />
+                  <br />
+                  At Tenko Tattoo, we are committed to supporting your
+                  professional growth and development. You will have access to a
+                  variety of resources and opportunities to help you enhance
+                  your skills, including:
+                  <br />
+                  <br />
+                  <span className=" pl-6 font-bold">
+                    • Paid Online Courses:
+                  </span>
+                  <br /> Access to a wide range of paid online courses to
+                  develop new skills in content creation, video production,
+                  digital marketing, and more. <br />
+                  <span className=" pl-6 font-bold">
+                    • Dedicated Learning Time:
+                  </span>{" "}
+                  <br />
+                  Allocated time within your workday to focus on learning and
+                  self-improvement, ensuring you can balance professional growth
+                  with your daily responsibilities. <br />
+                  <span className="pl-6 font-bold">
+                    • Mentorship Programs:{" "}
+                  </span>
+                  <br />
+                  Guidance from experienced professionals within our team to
+                  help you refine your skills and explore new areas of interest.
+                  <br />
+                  <span className=" pl-6 font-bold">• Creative Freedom: </span>
+                  <br />
+                  Encouragement to explore and develop innovative ideas that
+                  align with your career goals and our studio's mission.
+                  <br />
+                  <br />
                 </p>{" "}
                 <div className="w-full h-[1px] bg-neutral-600 my-6" />
                 <p className="text-neutral-400">
-                  If you're passionate about the tattoo industry and have the
+                  {/* If you're passionate about the tattoo industry and have the
                   creative skills to drive our brand forward, we'd love to hear
                   from you. Join us at Tenko Tattoo and be a part of our
-                  exciting journey.
+                  exciting journey. */}
+                  By joining Tenko Tattoo, you'll not only be part of a creative
+                  and dynamic team but also have the opportunity to grow and
+                  advance your career in an environment that values continuous
+                  learning and professional development.
                   <br />
                   <br />{" "}
                   <span className="font-bold text-white">

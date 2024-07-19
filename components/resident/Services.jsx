@@ -68,7 +68,7 @@ export default function Services() {
     <div className="margin-x grid grid-cols-1 md:grid-cols-2 gap-16 md:px-16 items-start pb-24 max-sm:pb-16">
       <div className="mt-16">
         <p>
-          We will soon be specializing in professional laser tattoo removal and
+          We will soon be specialising in professional laser tattoo removal and
           fading services for cover-ups, serving Lancashire and the wider North
           West of England.
           <br />

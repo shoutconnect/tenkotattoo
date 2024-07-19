@@ -10,4 +10,6 @@ export const DataStudio = {
   instagramURL: "https://www.instagram.com/tenkotattoo/",
   facebook: "",
   facebookURL: "https://www.facebook.com/tenkotattoo",
+  tiktok: "tenkotattoo",
+  tiktokURL: "https://www.tiktok.com/@tenkotattoo",
 };

@@ -1,14 +1,13 @@
-import Services from "@/components/residence/Services";
 import PageHeader from "@/components/UI/PageHeader";
 import Image from "next/image";
 import Script from "next/script";
 
-export default function ResidenceGuestArtist() {
+export default function ResidentGuestArtist() {
   return (
     <main className="relative">
       <PageHeader
         text=<>
-          <h1 className="text-neutral-50">Residence &</h1>
+          <h1 className="text-neutral-50">Resident &</h1>
           <div className="flex items-center gap-4">
             {" "}
             <h1 className="text-neutral-50">Guest</h1>

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Services() {
   const services = [
     {
-      name: "Tattoing",
+      name: "Tattooing",
       description:
         "Our artists specialise in unique tattoos that create lasting memories.",
       icon: "/Home Services Icon (2).svg",
