@@ -12,10 +12,18 @@ export default function WorkWithTenko() {
           title: "Location",
           description: "Between our Tattoo Studio and Office",
         },
-        { title: "Flexibility Days", description: "3-5 days per week" },
+        {
+          title: "Hours",
+          description: (
+            <>
+              24 hours per week{" "}
+              <span className="italic">(Additional hours an option)</span>
+            </>
+          ),
+        },
         {
           title: "Salary",
-          description: "£24,000 pro rata",
+          description: "£24,000 per annum pro rata",
         },
       ],
 
@@ -49,19 +57,21 @@ export default function WorkWithTenko() {
       requiriments: [
         "Regularly update and engage with followers on platforms like Instagram, Facebook, and TikTok to maintain a strong online presence.",
         "Plan, execute, and track the success of marketing campaigns to drive engagement and attract new clients.",
-        "Create promotional marketing material for merchandise, products, and services. ",
+        "Create promotional marketing material for merchandise, products, and services.",
         "Develop artist videos to showcase the talent and work of our team. ",
-        "Develop and maintain a content calendar to ensure consistent and timely delivery of marketing materials. ",
-        "Monitor and report on the performance of marketing campaigns, content, and social media engagement, providing insights and recommendations for improvement. ",
-        "Make contact with previous clients, encouraging them to post reviews and promote the studio and artists. ",
+        "Develop and maintain a content calendar to ensure consistent and timely delivery of marketing materials.",
+        "Monitor and report on the performance of marketing campaigns, content, and social media engagement, providing insights and recommendations for improvement.",
+        "Make contact with previous clients, encouraging them to post reviews and promote the studio and artists.",
+        "Explore and implement new and innovative ways to enhance our online presence and brand awareness.",
+        "Stay up-to-date with industry trends and best practices in content creation and digital marketing.",
       ],
       qualities: [
-        "Proven experience in content creation, especially in video production and editing. ",
-        "Excellent communication and collaboration skills. ",
-        "Monitor and analyse performance metrics to optimise content and campaign effectiveness. ",
-        "Explore and implement new and innovative ways to enhance our online presence and brand awareness. ",
-        "Stay up-to-date with industry trends and best practices in content creation and digital marketing. ",
-        "Ability to manage multiple projects and meet deadlines. ",
+        "Proven experience in content creation, especially in video production and editing.",
+        "Excellent communication and collaboration skills.",
+        "A creative mindset with a flair for storytelling and visual aesthetics.",
+        "A genuine interest in the tattoo scene and willingness to attend events and conventions.",
+        "The ability to monitor and analyse performance metrics to optimise content and campaign effectiveness.",
+        "The ability to manage multiple projects and meet deadlines.",
       ],
       opportunities: [
         {
@@ -143,67 +153,71 @@ export default function WorkWithTenko() {
                 {/* Description */}
                 <p className="text-neutral-400">{job[0].description}</p>
                 {/* Requiriments */}
-                <p className="text-neutral-400">
-                  <span className="font-bold text-white">
-                    🎨 Role Requirements:
-                  </span>
+                <div>
+                  <p className="font-bold text-white">🎨 Role Requirements:</p>
                   {job.map((job, i) => (
                     <div key={i} className="w-[95%] mx-auto space-y-1 mt-4">
                       {job.requiriments.map((requiriments, i) => (
-                        <div key={i}>
+                        <p key={i} className="text-neutral-400">
                           <span className="text-white mr-2">•</span>{" "}
                           {requiriments}
-                        </div>
+                        </p>
                       ))}
                     </div>
                   ))}
-                </p>{" "}
+                </div>{" "}
                 {/* Qualities */}
-                <p className="text-neutral-400">
-                  <span className="font-bold text-white">
+                <div>
+                  <p className="font-bold text-white">
                     📋 The qualities you will need:
-                  </span>
+                  </p>
                   {job.map((job, i) => (
                     <div key={i} className="w-[95%] mx-auto space-y-1 mt-4">
                       {job.qualities.map((qualities, i) => (
-                        <div key={i}>
+                        <p key={i} className="text-neutral-400">
                           <span className="text-white mr-2">•</span> {qualities}
-                        </div>
+                        </p>
                       ))}
                     </div>
                   ))}
-                  <br /> A strong understanding of digital marketing and
-                  managing paid campaigns on social media is a plus but not
-                  essential.
-                </p>{" "}
-                {/* Upskilling Opportunities */}
-                <p className="text-neutral-400">
-                  <span className="font-bold text-white">
-                    🚀 Upskilling Opportunities
-                  </span>{" "}
                   <br />
-                  <br /> At Tenko Tattoo, we are committed to supporting your
-                  professional growth and development. You will have access to a
-                  variety of resources and opportunities to help you enhance
-                  your skills, including:
+                  <p className="text-neutral-400">
+                    A strong understanding of digital marketing and managing
+                    paid campaigns on social media is a plus but not essential.
+                  </p>
+                </div>{" "}
+                {/* Upskilling Opportunities */}
+                <div>
+                  <p className="font-bold text-white">
+                    🚀 Upskilling Opportunities
+                  </p>{" "}
+                  <br />
+                  <br />
+                  <p className="text-neutral-400">
+                    At Tenko Tattoo, we are committed to supporting your
+                    professional growth and development. You will have access to
+                    a variety of resources and opportunities to help you enhance
+                    your skills, including:
+                  </p>
                   <br />
                   <br />
                   {job.map((job, i) => (
                     <div key={i} className="w-[95%] mx-auto space-y-1 mt-4">
                       {job.opportunities.map((opportunities, i) => (
                         <div key={i}>
-                          <span className="font-bold text-white">
+                          <p className="font-bold text-white">
                             <span className="mr-2">•</span>{" "}
                             {opportunities.title}:
-                          </span>
-                          <br />
-                          {opportunities.description}
+                          </p>
+                          <p className="text-neutral-400">
+                            {opportunities.description}
+                          </p>
                         </div>
                       ))}
                     </div>
                   ))}
                   {/* REST */}
-                </p>{" "}
+                </div>{" "}
                 <div className="w-full h-[1px] bg-neutral-600 my-6" />
                 <p className="text-neutral-400">
                   By joining Tenko Tattoo, you'll not only be part of a creative
