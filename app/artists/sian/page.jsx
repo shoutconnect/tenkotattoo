@@ -23,13 +23,8 @@ export default function Sian() {
       <Script
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
-        defer
       ></Script>
-      <div
-        class="elfsight-app-ec72951e-0aad-4008-ae40-25cb74c25d84"
-        data-elfsight-app-lazy
-        className=""
-      ></div>
+      <div class="elfsight-app-ec72951e-0aad-4008-ae40-25cb74c25d84"></div>
     </main>
   );
 }

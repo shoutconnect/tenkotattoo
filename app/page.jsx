@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      <div className="relative ">
+      <div className="relative -mb-16">
         <Image
           src="/Bg Brush.svg"
           alt="Brush stroke"
@@ -29,13 +29,8 @@ export default function Home() {
       <Script
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
-        defer
       ></Script>
-      <div
-        class="elfsight-app-4d0e8535-5784-423c-99a8-566bae659a02"
-        data-elfsight-app-lazy
-        className="-mt-10"
-      ></div>
+      <div class="elfsight-app-4d0e8535-5784-423c-99a8-566bae659a02"></div>
       <CTA />
     </main>
   );

@@ -23,13 +23,8 @@ export default function Takey() {
       <Script
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
-        defer
       ></Script>
-      <div
-        class="elfsight-app-26c1e656-cb10-478e-a293-b5fdce8cb910"
-        data-elfsight-app-lazy
-        className=""
-      ></div>
+      <div class="elfsight-app-26c1e656-cb10-478e-a293-b5fdce8cb910"></div>
     </main>
   );
 }

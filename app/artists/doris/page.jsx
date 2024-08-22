@@ -23,13 +23,8 @@ export default function Doris() {
       <Script
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
-        defer
       ></Script>
-      <div
-        class="elfsight-app-3c2daab0-d10a-41f0-98cd-88f06dc8613d"
-        data-elfsight-app-lazy
-        className=""
-      ></div>
+      <div class="elfsight-app-3c2daab0-d10a-41f0-98cd-88f06dc8613d"></div>
     </main>
   );
 }
