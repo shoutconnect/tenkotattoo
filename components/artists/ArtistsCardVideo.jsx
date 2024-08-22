@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaInstagramSquare } from "react-icons/fa";
 
-export default function ArtistsCardVideo({ artist }) {
+export default function ArtistsCardVideo({ artist, instagram }) {
   return (
     <section className="group margin-y">
       <div className="flex max-md:flex-col gap-16 xl:gap-20">
@@ -78,17 +78,31 @@ export default function ArtistsCardVideo({ artist }) {
               ))}
             </div>
             <p>{artist.description}</p>
-            <Link
-              href={artist.instagramURL}
-              target="_blank"
-              className="flex items-center gap-2 w-full hover:text-tenko my-transition"
-            >
-              <FaInstagramSquare className="h-6 w-auto text-tenko mr-2" />
-              <h5 className="hover:text-tenko my-transition">
-                View <span className="text-tenko">{artist.name}</span> portfolio
-              </h5>
-              <ArrowUpRightIcon className="h-4 w-auto" />
-            </Link>
+            {instagram ? (
+              <Link
+                href={artist.instagramURL}
+                target="_blank"
+                className="flex items-center gap-2 w-full hover:text-tenko my-transition"
+              >
+                <FaInstagramSquare className="h-6 w-auto text-tenko mr-2" />
+                <h5 className="hover:text-tenko my-transition">
+                  View <span className="text-tenko">{artist.name}</span>{" "}
+                  portfolio
+                </h5>
+                <ArrowUpRightIcon className="h-4 w-auto" />
+              </Link>
+            ) : (
+              <Link
+                href={artist.url}
+                className="flex items-center gap-2 w-full hover:text-tenko my-transition"
+              >
+                <h5 className="hover:text-tenko my-transition">
+                  View more about{" "}
+                  <span className="text-tenko">{artist.name}</span>
+                </h5>
+                <ArrowUpRightIcon className="h-4 w-auto" />
+              </Link>
+            )}
             <div className="max-md:hidden h-28 w-full" />
           </div>
         </div>

@@ -5,6 +5,7 @@ import MeetOurArtists from "@/components/home/MeetOurArtists";
 import Services from "@/components/home/Services";
 import Travel from "@/components/home/Travel";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -25,6 +26,16 @@ export default function Home() {
         <MeetOurArtists />
         <Travel />
       </div>
+      <Script
+        src="https://static.elfsight.com/platform/platform.js"
+        data-use-service-core
+        defer
+      ></Script>
+      <div
+        class="elfsight-app-4d0e8535-5784-423c-99a8-566bae659a02"
+        data-elfsight-app-lazy
+        className="-mt-10"
+      ></div>
       <CTA />
     </main>
   );
