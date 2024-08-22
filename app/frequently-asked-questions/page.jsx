@@ -1,6 +1,6 @@
 import FAQ from "@/components/UI/FAQ";
 import PageHeader from "@/components/UI/PageHeader";
-import Description from "@/components/faq/Description";
+import Description from "@/components/frequently-asked-questions/Description";
 import CTA from "@/components/home/CTA";
 import { StudioImg } from "@/data/DataImages";
 import Image from "next/image";
