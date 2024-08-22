@@ -5,8 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title:
-    "Tattoo Aftercare Tips | Ensure Beautiful & Vibrant Healing | Tenko Tattoo ",
+  title: "Tattoo Aftercare Tips | Ensure Vibrant Healing | Tenko Tattoo",
   description:
     "Ensure your tattoo heals beautifully and remains vibrant by following Tenko Tattoo’s expert aftercare guidelines. ",
   openGraph: {

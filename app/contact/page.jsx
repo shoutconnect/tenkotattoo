@@ -6,8 +6,7 @@ import Image from "next/image";
 import Script from "next/script";
 
 export const metadata = {
-  title:
-    "Contact Tenko Tattoo | Free Consultation & Laser Removal Inquiries in Preston ",
+  title: "Contact Tenko Tattoo | Free Consultation in Preston",
   description:
     "Get in touch with Tenko Tattoo in Preston for a free consultation or to learn more about our professional laser tattoo removal services. Let’s discuss your next tattoo today! ",
   openGraph: {

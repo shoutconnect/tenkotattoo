@@ -3,8 +3,7 @@ import Image from "next/image";
 import Script from "next/script";
 
 export const metadata = {
-  title:
-    "Join Our Team: Resident & Guest Artist Opportunities | Tenko Tattoo Preston ",
+  title: "Join Our Team: Resident & Guest Artists | Tenko Tattoo Preston",
   description:
     "Interested in joining Tenko Tattoo as a Resident or Guest Artist? Explore our exciting opportunities in Preston. ",
   openGraph: {
