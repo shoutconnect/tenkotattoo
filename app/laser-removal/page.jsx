@@ -8,6 +8,15 @@ import { StudioImg } from "@/data/DataImages";
 import Image from "next/image";
 import Script from "next/script";
 
+export const metadata = {
+  title: "Laser Tattoo Removal Services in Preston | Tenko Tattoo ",
+  description:
+    "Explore our upcoming professional laser tattoo removal and fading services at Tenko Tattoo in Preston. Register your interest today for exclusive updates! ",
+  openGraph: {
+    images: "/images/logos/Tenko Head Black PNG.png",
+  },
+};
+
 export default function LaserRemoval() {
   return (
     <main>

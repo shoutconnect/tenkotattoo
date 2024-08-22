@@ -4,6 +4,16 @@ import { StudioImg } from "@/data/DataImages";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title:
+    "Tattoo Aftercare Tips | Ensure Beautiful & Vibrant Healing | Tenko Tattoo ",
+  description:
+    "Ensure your tattoo heals beautifully and remains vibrant by following Tenko Tattoo’s expert aftercare guidelines. ",
+  openGraph: {
+    images: "/images/logos/Tenko Head Black PNG.png",
+  },
+};
+
 export default function Aftercare() {
   const steps = [
     {

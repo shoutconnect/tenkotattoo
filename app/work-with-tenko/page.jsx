@@ -3,6 +3,15 @@ import Services from "@/components/workwithtenko/Services";
 import Image from "next/image";
 import Script from "next/script";
 
+export const metadata = {
+  title: "Careers at Tenko Tattoo | Join Our Creative Team | Preston ",
+  description:
+    "Join our creative team at Tenko Tattoo in Preston. We’re on the lookout for skilled, creative individuals ready to make their mark in the tattoo world ",
+  openGraph: {
+    images: "/images/logos/Tenko Head Black PNG.png",
+  },
+};
+
 export default function WorkWithTenko() {
   const job = [
     {

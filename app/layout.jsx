@@ -4,9 +4,10 @@ import Footer from "@/components/Footer";
 import PrelineScript from "@/components/PrelineScript";
 
 export const metadata = {
-  title: "Tenko Tattoo",
+  title:
+    "Comfortable & personalised Tattoo Studio in Preston | Tenko Tattoo - Personalised Services",
   description:
-    "Located in the heart of Preston/UK, our tattoo studio offers a diverse range of styles and services to bring your tattoo vision to life. Experience top-quality artistry and professional service in a welcoming environment.",
+    "Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today! ",
   openGraph: {
     images: "/images/logos/Tenko Head Black PNG.png",
   },

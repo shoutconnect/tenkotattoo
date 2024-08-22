@@ -6,6 +6,15 @@ import { StudioImg } from "@/data/DataImages";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Tattoo FAQs | Everything You Need to Know | Tenko Tattoo Preston ",
+  description:
+    "Find answers to all your tattoo-related questions in our comprehensive FAQ section at Tenko Tattoo, Preston. ",
+  openGraph: {
+    images: "/images/logos/Tenko Head Black PNG.png",
+  },
+};
+
 export default function Faq() {
   const faq = [
     {
