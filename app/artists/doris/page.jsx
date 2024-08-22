@@ -24,7 +24,7 @@ export default function Doris() {
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
       ></Script>
-      <div class="elfsight-app-3c2daab0-d10a-41f0-98cd-88f06dc8613d"></div>
+      <div className="elfsight-app-3c2daab0-d10a-41f0-98cd-88f06dc8613d"></div>
     </main>
   );
 }

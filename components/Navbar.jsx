@@ -15,7 +15,7 @@ export default function Navbar() {
     { name: "Artists", href: "/artists" },
     { name: "Laser Removal", href: "/laser-removal" },
     { name: "Aftercare", href: "/aftercare" },
-    { name: "FAQ", href: "/faq" },
+    { name: "FAQ", href: "/frequently-asked-questions" },
     { name: "Contact", href: "/contact" },
   ];
 

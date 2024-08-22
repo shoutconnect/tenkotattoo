@@ -24,7 +24,7 @@ export default function Sian() {
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
       ></Script>
-      <div class="elfsight-app-ec72951e-0aad-4008-ae40-25cb74c25d84"></div>
+      <div className="elfsight-app-ec72951e-0aad-4008-ae40-25cb74c25d84"></div>
     </main>
   );
 }

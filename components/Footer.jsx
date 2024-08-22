@@ -18,7 +18,7 @@ const navigation = {
   important: [
     { name: "Tattoo Aftercare", href: "/aftercare" },
     { name: "Contact", href: "/contact" },
-    { name: "FAQ", href: "/faq" },
+    { name: "FAQ", href: "/frequently-asked-questions" },
     // { name: "Terms & conditions", href: "/terms-and-conditions" },
     // { name: "Cookies policy", href: "/cookies-policy" },
   ],

@@ -24,7 +24,7 @@ export default function Takey() {
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
       ></Script>
-      <div class="elfsight-app-26c1e656-cb10-478e-a293-b5fdce8cb910"></div>
+      <div className="elfsight-app-26c1e656-cb10-478e-a293-b5fdce8cb910"></div>
     </main>
   );
 }
