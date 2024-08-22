@@ -30,7 +30,7 @@ export default function Home() {
         src="https://static.elfsight.com/platform/platform.js"
         data-use-service-core
       ></Script>
-      <div class="elfsight-app-4d0e8535-5784-423c-99a8-566bae659a02"></div>
+      <div className="elfsight-app-4d0e8535-5784-423c-99a8-566bae659a02"></div>
       <CTA />
     </main>
   );
