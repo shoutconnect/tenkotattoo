@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import PrelineScript from "@/components/PrelineScript";
 
 export const metadata = {
-  title: "Comfortable & personalised Tattoo Studio in Preston | Tenko Tattoo",
+  title: "Comfortable & personalised Tattoo Studio in Preston Tenko Tattoo",
   description:
     "Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today! ",
   openGraph: {
