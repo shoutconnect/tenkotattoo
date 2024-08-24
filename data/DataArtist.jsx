@@ -29,7 +29,7 @@ export const DataArtist = [
     picture: [
       "/doris/26th May - 1.jpg",
       "/doris/26th May - 2.jpg",
-      "/doris/26th May - 3.jpg",
+      "/doris/26th May - 1.jpg",
       "/doris/26th May - 4.jpg",
       "https://i.ibb.co/cksBFtD/Photo-50-1.jpg",
       "https://i.ibb.co/8xG5L54/Photo-56.jpg",
@@ -111,7 +111,7 @@ export const DataArtist = [
       "/takey/26th May - 3.jpg",
       "https://i.ibb.co/74wKdDX/Photo-20.jpg",
       "/takey/26th May - 4.jpg",
-      "/takey/26th May - 6.jpg",
+      "/takey/26th May - 5.jpg",
       "https://i.ibb.co/Vp0rRYC/Photo-16.jpg",
       "/takey/26th May - 2.jpg",
       "/takey/26th May - 1.jpg",

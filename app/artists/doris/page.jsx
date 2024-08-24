@@ -1,4 +1,5 @@
 import ArtistsCard from "@/components/artists/Artists";
+import ArtistsCardVideo from "@/components/artists/ArtistsCardVideo";
 import ArtistsVideo from "@/components/artists/ArtistsVideo";
 import { DataArtist } from "@/data/DataArtist";
 import Script from "next/script";
@@ -15,10 +16,10 @@ export const metadata = {
 export default function Doris() {
   return (
     <main>
-      <ArtistsVideo artist={DataArtist[0]} />
-      <div className="margin-x">
+      {/* <ArtistsVideo artist={DataArtist[0]} /> */}
+      <div className="margin-x mt-32">
         {" "}
-        <ArtistsCard artist={DataArtist[0]} instagram />
+        <ArtistsCardVideo artist={DataArtist[0]} instagram />
       </div>
       <Script
         src="https://static.elfsight.com/platform/platform.js"
