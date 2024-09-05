@@ -32,7 +32,6 @@ export default function RootLayout({ children }) {
         <title>
           Comfortable & personalised Tattoo Studio in Preston Tenko Tattoo
         </title>
-        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
           content="Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today!"
