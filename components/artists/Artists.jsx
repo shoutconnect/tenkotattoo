@@ -32,7 +32,7 @@ export default function ArtistsCard({ artist, instagram, portfolio }) {
         </div>
         <div className="flex flex-col items-start w-full">
           {artist.logo ? (
-            <>
+            <div className="w-full">
               {" "}
               <Image
                 src={artist.logo}
@@ -40,9 +40,9 @@ export default function ArtistsCard({ artist, instagram, portfolio }) {
                 draggable="false"
                 width={400}
                 height={400}
-                className="object-cover w-60 h-auto"
+                className="object-cover w-60 h-auto select-none"
               />
-            </>
+            </div>
           ) : (
             <h1>
               <span className="text-tenko">{artist.name}</span> Tattoo

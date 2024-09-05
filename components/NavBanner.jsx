@@ -21,7 +21,7 @@ export default function NavBanner() {
           </a>
 
           <div className="flex flex-1 justify-end">
-            <button type="button" onClick={() => setShow(!show)}>
+            <button type="button" onClick={() => setShow(!show)} name="Close">
               <XMarkIcon
                 className="size-4 md:size-5 text-neutral-50"
                 aria-hidden="true"

@@ -60,7 +60,7 @@ export default function Footer() {
                   <li key={item.name}>
                     <a
                       href={item.href}
-                      className="text-sm font-semibold tracking-wider text-neutral-500 hover:text-neutral-200"
+                      className="text-sm font-semibold tracking-wider text-neutral-400 hover:text-neutral-200"
                     >
                       {item.name}
                     </a>
@@ -77,7 +77,7 @@ export default function Footer() {
                   <li key={item.name}>
                     <a
                       href={item.href}
-                      className="text-sm font-semibold tracking-wider text-neutral-500 hover:text-neutral-200"
+                      className="text-sm font-semibold tracking-wider text-neutral-400 hover:text-neutral-200"
                     >
                       {item.name}
                     </a>
@@ -94,7 +94,7 @@ export default function Footer() {
                   <li key={item.name}>
                     <a
                       href={item.href}
-                      className="text-sm font-semibold tracking-wider text-neutral-500 hover:text-neutral-200"
+                      className="text-sm font-semibold tracking-wider text-neutral-400 hover:text-neutral-200"
                     >
                       {item.name}
                     </a>

@@ -3,25 +3,57 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PrelineScript from "@/components/PrelineScript";
 import Script from "next/script";
+import Head from "next/head";
 
 export const metadata = {
   title: "Comfortable & personalised Tattoo Studio in Preston Tenko Tattoo",
   description:
     "Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today! ",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Comfortable & personalised Tattoo Studio in Preston Tenko Tattoo",
+    description:
+      "Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today! ",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png",
+        width: 800,
+        height: 600,
+        alt: "Tenko Tattoo Studio",
+      },
+    ],
   },
+  metadataBase: new URL("https://www.tenkotattoo.com"),
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
+        <title>
+          Comfortable & personalised Tattoo Studio in Preston Tenko Tattoo
+        </title>
+        <meta name="robots" content="noindex, nofollow" />
+        <meta
+          name="description"
+          content="Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today!"
+        />
+        <meta
+          name="keywords"
+          content="tattoo studio Preston, tattoos Preston, tattoo artist Lancashire, personalised tattoo services, Tenko Tattoo, tattoo shop Preston, body art Preston, unique tattoos Lancashire, professional tattoo studio, Preston tattoo artists"
+        />
+        <meta name="author" content="Tenko Tattoo" />
+        <link rel="icon" href="/favicon.ico" />
+        {/* Facebook Domain Verification */}
+        <meta
+          name="facebook-domain-verification"
+          content="bgef0hy8y9zmebyhgz54cpkqh3fvjc"
+        />
+        {/* Google meta tag */}
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-VEBMYT26HW"
         ></Script>
-        <script
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
           window.dataLayer = window.dataLayer || [];
@@ -31,6 +63,7 @@ export default function RootLayout({ children }) {
         `,
           }}
         />
+        {/* End Google meta tag */}
         {/* Meta Pixel Code */}
         <Script
           dangerouslySetInnerHTML={{
@@ -57,7 +90,7 @@ export default function RootLayout({ children }) {
           />
         </noscript>
         {/* End Meta Pixel Code */}
-      </head>
+      </Head>
       <body>
         <PrelineScript />
         <div className="fixed mt-36 mx-auto right-0 left-0 -z-20 inset-0 h-[100%] w-[95%] bg-neutral-50 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>

@@ -49,7 +49,7 @@ export default function ArtistsCardVideo({ artist, instagram }) {
         </div>
         <div className="flex flex-col items-start w-full">
           {artist.logo ? (
-            <>
+            <div className="flex">
               {" "}
               <Image
                 src={artist.logo}
@@ -57,9 +57,14 @@ export default function ArtistsCardVideo({ artist, instagram }) {
                 draggable="false"
                 width={400}
                 height={400}
-                className="object-cover w-60 h-auto"
+                className="object-cover w-60 h-auto select-none"
               />
-            </>
+              <h1>
+                <span className="text-[#fefefe] text-sm opacity-5 select-none">
+                  {artist.name} tattoo
+                </span>
+              </h1>
+            </div>
           ) : (
             <h1>
               <span className="text-tenko">{artist.name}</span> Tattoo
