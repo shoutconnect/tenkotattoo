@@ -5,11 +5,23 @@ import { DataArtist } from "@/data/DataArtist";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Doris | Pop-Culture & Neo Traditional Tattoos | Tenko Tattoo ",
+  title: "Doris | Pop-Culture & Neo Traditional Tattoos | Tenko Tattoo",
   description:
-    "Discover Doris’ expertise in Pop-Culture, Anime, Neo Traditional, and Blackwork tattoos at Tenko Tattoo, Preston. ",
+    "Discover Doris’ expertise in Pop-Culture, Anime, Neo Traditional, and Blackwork tattoos at Tenko Tattoo, Preston.",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Doris | Pop-Culture & Neo Traditional Tattoos | Tenko Tattoo",
+    description:
+      "Discover Doris’ expertise in Pop-Culture, Anime, Neo Traditional, and Blackwork tattoos at Tenko Tattoo, Preston.",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png", // Correct format
+        width: 800, // Suggested width
+        height: 600, // Suggested height
+        alt: "Tenko Tattoo Studio Logo", // Descriptive alt text
+      },
+    ],
+    url: "https://www.tenkotattoo.com/artists/doris", // Optional but recommended for specific page link
+    type: "profile", // Optional Open Graph type, 'profile' can be used if focusing on an individual artist
   },
 };
 

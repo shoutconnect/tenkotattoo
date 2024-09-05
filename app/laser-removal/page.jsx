@@ -9,11 +9,23 @@ import Image from "next/image";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Laser Tattoo Removal Services in Preston | Tenko Tattoo ",
+  title: "Laser Tattoo Removal Services in Preston | Tenko Tattoo",
   description:
-    "Explore our upcoming professional laser tattoo removal and fading services at Tenko Tattoo in Preston. Register your interest today for exclusive updates! ",
+    "Explore our upcoming professional laser tattoo removal and fading services at Tenko Tattoo in Preston. Register your interest today for exclusive updates!",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Laser Tattoo Removal Services in Preston | Tenko Tattoo",
+    description:
+      "Explore our upcoming professional laser tattoo removal and fading services at Tenko Tattoo in Preston. Register your interest today for exclusive updates!",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png", // Correct format
+        width: 800, // Suggested width, adjust as necessary
+        height: 600, // Suggested height, adjust as necessary
+        alt: "Tenko Tattoo Studio Logo", // Descriptive alt text
+      },
+    ],
+    url: "https://www.tenkotattoo.com/laser-removal", // Optional but recommended
+    type: "website", // Optional Open Graph type
   },
 };
 

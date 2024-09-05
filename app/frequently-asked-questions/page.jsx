@@ -7,11 +7,23 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Tattoo FAQs | Everything You Need to Know | Tenko Tattoo Preston ",
+  title: "Tattoo FAQs | Everything You Need to Know | Tenko Tattoo Preston",
   description:
-    "Find answers to all your tattoo-related questions in our comprehensive FAQ section at Tenko Tattoo, Preston. ",
+    "Find answers to all your tattoo-related questions in our comprehensive FAQ section at Tenko Tattoo, Preston.",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Tattoo FAQs | Everything You Need to Know | Tenko Tattoo Preston",
+    description:
+      "Find answers to all your tattoo-related questions in our comprehensive FAQ section at Tenko Tattoo, Preston.",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png", // Correct format
+        width: 800, // Suggested width
+        height: 600, // Suggested height
+        alt: "Tenko Tattoo Studio Logo", // Descriptive alt text
+      },
+    ],
+    url: "https://www.tenkotattoo.com/frequently-asked-questions", // Optional but recommended
+    type: "website", // Optional Open Graph type
   },
 };
 

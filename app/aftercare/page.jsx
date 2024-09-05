@@ -7,9 +7,21 @@ import Link from "next/link";
 export const metadata = {
   title: "Tattoo Aftercare Tips | Ensure Vibrant Healing | Tenko Tattoo",
   description:
-    "Ensure your tattoo heals beautifully and remains vibrant by following Tenko Tattoo’s expert aftercare guidelines. ",
+    "Ensure your tattoo heals beautifully and remains vibrant by following Tenko Tattoo’s expert aftercare guidelines.",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Tattoo Aftercare Tips | Ensure Vibrant Healing | Tenko Tattoo",
+    description:
+      "Ensure your tattoo heals beautifully and remains vibrant by following Tenko Tattoo’s expert aftercare guidelines.",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png", // Correct format
+        width: 800, // Suggested width
+        height: 600, // Suggested height
+        alt: "Tenko Tattoo Studio Logo", // Descriptive alt text
+      },
+    ],
+    url: "https://www.tenkotattoo.com/aftercare", // Optional but recommended for specific page link
+    type: "article", // Optional Open Graph type, 'article' can be used for informational pages
   },
 };
 

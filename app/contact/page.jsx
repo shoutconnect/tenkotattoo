@@ -8,9 +8,21 @@ import Script from "next/script";
 export const metadata = {
   title: "Contact Tenko Tattoo | Free Consultation in Preston",
   description:
-    "Get in touch with Tenko Tattoo in Preston for a free consultation or to learn more about our professional laser tattoo removal services. Let’s discuss your next tattoo today! ",
+    "Get in touch with Tenko Tattoo in Preston for a free consultation or to learn more about our professional laser tattoo removal services. Let’s discuss your next tattoo today!",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Contact Tenko Tattoo | Free Consultation in Preston",
+    description:
+      "Get in touch with Tenko Tattoo in Preston for a free consultation or to learn more about our professional laser tattoo removal services. Let’s discuss your next tattoo today!",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png", // Correct format
+        width: 800, // Suggested width
+        height: 600, // Suggested height
+        alt: "Tenko Tattoo Studio Logo", // Descriptive alt text
+      },
+    ],
+    url: "https://www.tenkotattoo.com/contact", // Optional but recommended for better link previews
+    type: "website", // Optional Open Graph type
   },
 };
 

@@ -11,11 +11,23 @@ import Link from "next/link";
 import { FaInstagramSquare } from "react-icons/fa";
 
 export const metadata = {
-  title: "Meet Our Talented Tattoo Artists | Tenko Tattoo Studio Preston ",
+  title: "Meet Our Talented Tattoo Artists | Tenko Tattoo Studio Preston",
   description:
-    "Discover the diverse talents and unique tattoo styles offered by our skilled artists at Tenko Tattoo in Preston. ",
+    "Discover the diverse talents and unique tattoo styles offered by our skilled artists at Tenko Tattoo in Preston.",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Meet Our Talented Tattoo Artists | Tenko Tattoo Studio Preston",
+    description:
+      "Discover the diverse talents and unique tattoo styles offered by our skilled artists at Tenko Tattoo in Preston.",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png", // Correct format
+        width: 800, // Suggested width
+        height: 600, // Suggested height
+        alt: "Tenko Tattoo Studio Logo", // Descriptive alt text
+      },
+    ],
+    url: "https://www.tenkotattoo.com/artists", // Optional but recommended for a specific page link
+    type: "website", // Optional Open Graph type
   },
 };
 

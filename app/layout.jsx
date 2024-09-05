@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="keywords"
-          content="tattoo studio Preston, tattoos Preston, tattoo artist Lancashire, personalised tattoo services, Tenko Tattoo, tattoo shop Preston, body art Preston, unique tattoos Lancashire, professional tattoo studio, Preston tattoo artists"
+          content="tattoo studio Preston, tattoos Preston, tattoo artist Lancashire, personalised tattoo services, Tenko Tattoo, tattoo shop Preston, body art Preston, unique tattoos Lancashire, professional tattoo studio, Preston tattoo artists, preston tattoo studio, tattoo shops in preston"
         />
         <meta name="author" content="Tenko Tattoo" />
         <link rel="icon" href="/favicon.ico" />

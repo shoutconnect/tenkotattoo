@@ -5,9 +5,21 @@ import Script from "next/script";
 export const metadata = {
   title: "Join Our Team: Resident & Guest Artists | Tenko Tattoo Preston",
   description:
-    "Interested in joining Tenko Tattoo as a Resident or Guest Artist? Explore our exciting opportunities in Preston. ",
+    "Interested in joining Tenko Tattoo as a Resident or Guest Artist? Explore our exciting opportunities in Preston.",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Join Our Team: Resident & Guest Artists | Tenko Tattoo Preston",
+    description:
+      "Interested in joining Tenko Tattoo as a Resident or Guest Artist? Explore our exciting opportunities in Preston.",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png", // Correct format
+        width: 800, // Suggested width
+        height: 600, // Suggested height
+        alt: "Tenko Tattoo Studio Logo", // Descriptive alt text
+      },
+    ],
+    url: "https://www.tenkotattoo.com/resident-guest-artists", // Optional but recommended
+    type: "website", // Optional Open Graph type
   },
 };
 

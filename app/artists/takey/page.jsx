@@ -5,11 +5,23 @@ import { DataArtist } from "@/data/DataArtist";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Takey | Calligraphy, Fine Line & Oriental Tattoos | Tenko Tattoo ",
+  title: "Takey | Calligraphy, Fine Line & Oriental Tattoos | Tenko Tattoo",
   description:
-    "Experience Takey’s exceptional skills in calligraphy, fine line, and oriental tattoos at Tenko Tattoo in Preston. ",
+    "Experience Takey’s exceptional skills in calligraphy, fine line, and oriental tattoos at Tenko Tattoo in Preston.",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Takey | Calligraphy, Fine Line & Oriental Tattoos | Tenko Tattoo",
+    description:
+      "Experience Takey’s exceptional skills in calligraphy, fine line, and oriental tattoos at Tenko Tattoo in Preston.",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png", // Correct format
+        width: 800, // Suggested width
+        height: 600, // Suggested height
+        alt: "Tenko Tattoo Studio Logo", // Descriptive alt text
+      },
+    ],
+    url: "https://www.tenkotattoo.com/artists/takey", // Optional but recommended for a specific page link
+    type: "profile", // Optional Open Graph type, 'profile' for an individual artist
   },
 };
 

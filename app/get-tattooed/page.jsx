@@ -7,11 +7,23 @@ import Image from "next/image";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Get Tattooed by Top Artists | Book Now | Tenko Tattoo Preston ",
+  title: "Get Tattooed by Top Artists | Book Now | Tenko Tattoo Preston",
   description:
     "Ready for your next tattoo? Book a session with our talented artists at Tenko Tattoo in Preston today.",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Get Tattooed by Top Artists | Book Now | Tenko Tattoo Preston",
+    description:
+      "Ready for your next tattoo? Book a session with our talented artists at Tenko Tattoo in Preston today.",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png", // Correct format
+        width: 800, // Suggested width
+        height: 600, // Suggested height
+        alt: "Tenko Tattoo Studio Logo", // Descriptive alt text
+      },
+    ],
+    url: "https://www.tenkotattoo.com/get-tattooed", // Optional but recommended
+    type: "website", // Optional Open Graph type
   },
 };
 

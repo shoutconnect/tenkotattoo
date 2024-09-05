@@ -4,11 +4,23 @@ import Image from "next/image";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Careers at Tenko Tattoo | Join Our Creative Team | Preston ",
+  title: "Careers at Tenko Tattoo | Join Our Creative Team | Preston",
   description:
-    "Join our creative team at Tenko Tattoo in Preston. We’re on the lookout for skilled, creative individuals ready to make their mark in the tattoo world ",
+    "Join our creative team at Tenko Tattoo in Preston. We’re on the lookout for skilled, creative individuals ready to make their mark in the tattoo world.",
   openGraph: {
-    images: "/images/logos/Tenko Head Black PNG.png",
+    title: "Careers at Tenko Tattoo | Join Our Creative Team | Preston",
+    description:
+      "Join our creative team at Tenko Tattoo in Preston. We’re on the lookout for skilled, creative individuals ready to make their mark in the tattoo world.",
+    images: [
+      {
+        url: "/images/logos/Tenko Head Black PNG.png",
+        width: 800, // Set a suitable width
+        height: 600, // Set a suitable height
+        alt: "Tenko Tattoo Studio Logo", // Set a descriptive alt text
+      },
+    ],
+    url: "https://www.tenkotattoo.com/work-with-tenko", // Set the correct URL
+    type: "website", // Optional, specifying the type of Open Graph object
   },
 };
 
