@@ -47,6 +47,9 @@ export default function RootLayout({ children }) {
           name="facebook-domain-verification"
           content="bgef0hy8y9zmebyhgz54cpkqh3fvjc"
         />
+      </Head>
+      <body>
+        {" "}
         {/* Google meta tag */}
         <Script
           async
@@ -89,8 +92,6 @@ export default function RootLayout({ children }) {
           />
         </noscript>
         {/* End Meta Pixel Code */}
-      </Head>
-      <body>
         <PrelineScript />
         <div className="fixed mt-36 mx-auto right-0 left-0 -z-20 inset-0 h-[100%] w-[95%] bg-neutral-50 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <Navbar />
