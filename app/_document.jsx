@@ -3,10 +3,25 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head></Head>
-      <body>
-        <Main />
-        <NextScript />
+      <Head>
+        <title>
+          Comfortable & personalised Tattoo Studio in Preston Tenko Tattoo
+        </title>
+        <meta
+          name="description"
+          content="Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today!"
+        />
+        <meta
+          name="keywords"
+          content="tattoo studio Preston, tattoos Preston, tattoo artist Lancashire, personalised tattoo services, Tenko Tattoo, tattoo shop Preston, body art Preston, unique tattoos Lancashire, professional tattoo studio, Preston tattoo artists, preston tattoo studio, tattoo shops in preston"
+        />
+        <meta name="author" content="Tenko Tattoo" />
+        <link rel="icon" href="/favicon.ico" />
+        {/* Facebook Domain Verification */}
+        <meta
+          name="facebook-domain-verification"
+          content="bgef0hy8y9zmebyhgz54cpkqh3fvjc"
+        />
         {/* Meta Pixel Code */}
         <Script
           dangerouslySetInnerHTML={{
@@ -33,6 +48,10 @@ export default function Document() {
           />
         </noscript>
         {/* End Meta Pixel Code */}
+      </Head>
+      <body>
+        <Main />
+        <NextScript />
       </body>
     </Html>
   );
