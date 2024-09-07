@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today! ",
   keywords:
-    "tattoo studio Preston, tattoos Preston, tattoo artist Lancashire, personalised tattoo services, Tenko Tattoo, tattoo shop Preston,tattoo shops Preston, body art Preston, unique tattoos Lancashire, professional tattoo studio, Preston tattoo artists, preston tattoo studio, tattoo shops in preston",
+    "tattoo studio Preston, tattoo design Preston, tattoos Preston, tattoo artist Lancashire, personalised tattoo services, Tenko Tattoo, tattoo shop Preston, tattoo shops Preston, body art Preston, unique tattoos Lancashire, professional tattoo studio, Preston tattoo artists, preston tattoo studio, tattoo shops in preston",
   robotos: "index, follow",
   openGraph: {
     title: "Comfortable & personalised Tattoo Studio in Preston Tenko Tattoo",
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="keywords"
-          content="tattoo studio Preston, tattoos Preston, tattoo artist Lancashire, personalised tattoo services, Tenko Tattoo, tattoo shop Preston, body art Preston, unique tattoos Lancashire, professional tattoo studio, Preston tattoo artists, preston tattoo studio, tattoo shops in preston"
+          content="tattoo studio Preston, tattoo design Preston, tattoos Preston, tattoo artist Lancashire, personalised tattoo services, Tenko Tattoo, tattoo shop Preston, tattoo shops Preston, body art Preston, unique tattoos Lancashire, professional tattoo studio, Preston tattoo artists, preston tattoo studio, tattoo shops in preston"
         />
         <meta name="author" content="Tenko Tattoo" />
         <link rel="icon" href="/favicon.ico" />
