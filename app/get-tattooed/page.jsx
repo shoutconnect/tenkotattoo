@@ -10,6 +10,7 @@ export const metadata = {
   title: "Get Tattooed by Top Artists | Book Now | Tenko Tattoo Preston",
   description:
     "Ready for your next tattoo? Book a session with our talented artists at Tenko Tattoo in Preston today.",
+  robots: "index, follow",
   openGraph: {
     title: "Get Tattooed by Top Artists | Book Now | Tenko Tattoo Preston",
     description:

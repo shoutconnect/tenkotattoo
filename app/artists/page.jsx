@@ -14,6 +14,7 @@ export const metadata = {
   title: "Meet Our Talented Tattoo Artists | Tenko Tattoo Studio Preston",
   description:
     "Discover the diverse talents and unique tattoo styles offered by our skilled artists at Tenko Tattoo in Preston.",
+  robots: "index, follow",
   openGraph: {
     title: "Meet Our Talented Tattoo Artists | Tenko Tattoo Studio Preston",
     description:

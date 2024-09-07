@@ -10,6 +10,7 @@ export const metadata = {
   title: "Tattoo FAQs | Everything You Need to Know | Tenko Tattoo Preston",
   description:
     "Find answers to all your tattoo-related questions in our comprehensive FAQ section at Tenko Tattoo, Preston.",
+  robots: "index, follow",
   openGraph: {
     title: "Tattoo FAQs | Everything You Need to Know | Tenko Tattoo Preston",
     description:

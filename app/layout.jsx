@@ -6,14 +6,15 @@ import Script from "next/script";
 import Head from "next/head";
 
 export const metadata = {
-  title: "Comfortable & personalised Tattoo Studio in Preston Tenko Tattoo",
+  title:
+    "Tenko Tattoo | Comfortable & personalised Tattoo Studio in Preston | Custom designs & more",
   description:
-    "Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today! ",
+    "Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today!",
   keywords:
     "tattoo studio Preston, tattoo design Preston, tattoos Preston, tattoo artist Lancashire, personalised tattoo services, Tenko Tattoo, tattoo shop Preston, tattoo shops Preston, body art Preston, unique tattoos Lancashire, professional tattoo studio, Preston tattoo artists, preston tattoo studio, tattoo shops in preston",
-  robotos: "index, follow",
+  robots: "index, follow",
   openGraph: {
-    title: "Comfortable & personalised Tattoo Studio in Preston Tenko Tattoo",
+    title: "Tenko Tattoo | Comfortable & personalised Tattoo Studio in Preston",
     description:
       "Experience comforting & personalised tattoo services at Tenko Tattoo in Preston, Lancashire. Book your appointment today! ",
     images: [
@@ -33,7 +34,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <title>
-          Comfortable & personalised Tattoo Studio in Preston Tenko Tattoo
+          Comfortable & personalised Tattoo Studio in Preston | Tenko Tattoo |
+          Custom designs & more
         </title>
         <meta
           name="description"

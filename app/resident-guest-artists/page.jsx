@@ -6,6 +6,7 @@ export const metadata = {
   title: "Join Our Team: Resident & Guest Artists | Tenko Tattoo Preston",
   description:
     "Interested in joining Tenko Tattoo as a Resident or Guest Artist? Explore our exciting opportunities in Preston.",
+  robots: "index, follow",
   openGraph: {
     title: "Join Our Team: Resident & Guest Artists | Tenko Tattoo Preston",
     description:

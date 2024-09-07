@@ -7,6 +7,7 @@ export const metadata = {
   title: "Careers at Tenko Tattoo | Join Our Creative Team | Preston",
   description:
     "Join our creative team at Tenko Tattoo in Preston. We’re on the lookout for skilled, creative individuals ready to make their mark in the tattoo world.",
+  robots: "index, follow",
   openGraph: {
     title: "Careers at Tenko Tattoo | Join Our Creative Team | Preston",
     description:

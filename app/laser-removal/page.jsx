@@ -12,6 +12,7 @@ export const metadata = {
   title: "Laser Tattoo Removal Services in Preston | Tenko Tattoo",
   description:
     "Explore our upcoming professional laser tattoo removal and fading services at Tenko Tattoo in Preston. Register your interest today for exclusive updates!",
+  robots: "index, follow",
   openGraph: {
     title: "Laser Tattoo Removal Services in Preston | Tenko Tattoo",
     description:

@@ -8,6 +8,7 @@ export const metadata = {
   title: "Tattoo Aftercare Tips | Ensure Vibrant Healing | Tenko Tattoo",
   description:
     "Ensure your tattoo heals beautifully and remains vibrant by following Tenko Tattoo’s expert aftercare guidelines.",
+  robots: "index, follow",
   openGraph: {
     title: "Tattoo Aftercare Tips | Ensure Vibrant Healing | Tenko Tattoo",
     description:
