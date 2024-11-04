@@ -8,12 +8,12 @@ export default function Features() {
         "Tenko Tattoo is open between: Monday to Sunday from 12pm til 6pm.",
     },
     {
-      title: "aPPOINTMENT ONLY",
+      title: "Appointment Only",
       description:
         "We don’t accept walk-in bookings or consultations, all appointments must be made in advance.",
     },
     {
-      title: "sTUDIO EMAIL",
+      title: "Studio Email",
       description: (
         <>
           You can complete the below form or email the studio at{" "}
