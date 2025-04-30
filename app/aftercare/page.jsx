@@ -185,7 +185,9 @@ export default function Aftercare() {
             aria-controls="tabs-with-underline-1"
             role="tab"
           >
-            <h6 className="hs-tab-active:text-tenko">{steps[0].step}</h6>
+            <h6 className="hs-tab-active:text-tenko max-sm:text-xs">
+              {steps[0].step}
+            </h6>
           </button>
           <button
             type="button"
@@ -195,7 +197,9 @@ export default function Aftercare() {
             aria-controls="tabs-with-underline-2"
             role="tab"
           >
-            <h6 className="hs-tab-active:text-tenko">{steps[1].step}</h6>
+            <h6 className="hs-tab-active:text-tenko max-sm:text-xs">
+              {steps[1].step}
+            </h6>
           </button>{" "}
           <button
             type="button"
@@ -205,7 +209,9 @@ export default function Aftercare() {
             aria-controls="tabs-with-underline-3"
             role="tab"
           >
-            <h6 className="hs-tab-active:text-tenko">{steps[2].step}</h6>
+            <h6 className="hs-tab-active:text-tenko max-sm:text-xs">
+              {steps[2].step}
+            </h6>
           </button>{" "}
         </nav>
         <div className="mt-16">
