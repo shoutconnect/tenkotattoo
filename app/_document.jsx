@@ -47,6 +47,7 @@ export default function Document() {
             src="https://www.facebook.com/tr?id=783759000601615&ev=PageView&noscript=1"
           />
         </noscript>
+
         {/* End Meta Pixel Code */}
       </Head>
       <body>

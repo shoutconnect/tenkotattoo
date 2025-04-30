@@ -56,6 +56,11 @@ export default function RootLayout({ children }) {
       <body>
         {" "}
         {/* Google meta tag */}
+        <script
+          defer
+          src="https://umami.aronix.app/script.js"
+          data-website-id="ba17d0d3-4836-4318-89c0-bc98c7fce50f"
+        ></script>
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-VEBMYT26HW"
