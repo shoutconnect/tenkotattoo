@@ -9,7 +9,7 @@ export default function Tabs() {
       step: "Per session",
       price: {
         small: 40,
-        medium: 80,
+        medium: 90,
         large: 130,
       },
     },
@@ -17,18 +17,18 @@ export default function Tabs() {
       id: "tabs-with-underline-2",
       step: "Packages",
       price: {
-        small: 25,
-        medium: 75,
-        large: 95,
+        small: 35,
+        medium: 85,
+        large: 125,
       },
     },
     {
       id: "tabs-with-underline-3",
       step: "Cover up offer",
       price: {
-        small: 20,
-        medium: 60,
-        large: 80,
+        small: 32,
+        medium: 72,
+        large: 104,
       },
     },
   ];
