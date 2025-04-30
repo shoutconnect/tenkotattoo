@@ -7,12 +7,12 @@ import Link from "next/link";
 export const metadata = {
   title: "Tattoo Aftercare Tips | Ensure Vibrant Healing | Tenko Tattoo",
   description:
-    "Ensure your tattoo heals beautifully and remains vibrant by following Tenko Tattoo’s expert aftercare guidelines.",
+    "Ensure your tattoo heals beautifully and remains vibrant by following Tenko Tattoo's expert aftercare guidelines.",
   robots: "index, follow",
   openGraph: {
     title: "Tattoo Aftercare Tips | Ensure Vibrant Healing | Tenko Tattoo",
     description:
-      "Ensure your tattoo heals beautifully and remains vibrant by following Tenko Tattoo’s expert aftercare guidelines.",
+      "Ensure your tattoo heals beautifully and remains vibrant by following Tenko Tattoo's expert aftercare guidelines.",
     images: [
       {
         url: "/images/logos/Tenko Head Black PNG.png", // Correct format
@@ -236,11 +236,10 @@ export default function Aftercare() {
                     >
                       <h6 className=" text-white">{item.title}</h6>
                     </div>
-
                     <p className="-mt-1">{item.description}</p>
                   </div>
                 ))}
-              </div>{" "}
+              </div>
               <div className="bg-neutral-900 col-span-1 overflow-hidden h-48 sm:h-56">
                 <Image
                   src="/first photoshoot/Tenko Tattoo (12).jpg"
@@ -259,7 +258,6 @@ export default function Aftercare() {
             aria-labelledby="tabs-with-underline-item-2"
           >
             <div className="flex flex-col gap-12">
-              {" "}
               <div className="bg-neutral-900 col-span-1 overflow-hidden h-48 sm:h-56">
                 <Image
                   src="/first photoshoot/Tenko Tattoo (15).jpg"
@@ -284,15 +282,15 @@ export default function Aftercare() {
                     >
                       <h6 className=" text-white">{item.title}</h6>
                     </div>
-
                     <p className="-mt-1">{item.description}</p>
                   </div>
                 ))}
-              </div>{" "}
+              </div>
             </div>
           </div>
           <div
             id="tabs-with-underline-3"
+            className="hidden"
             role="tabpanel"
             aria-labelledby="tabs-with-underline-item-3"
           >
@@ -312,11 +310,10 @@ export default function Aftercare() {
                     >
                       <h6 className=" text-white">{item.title}</h6>
                     </div>
-
                     <p className="-mt-1">{item.description}</p>
                   </div>
                 ))}
-              </div>{" "}
+              </div>
               <div className="bg-neutral-900 col-span-1 overflow-hidden h-48 sm:h-56">
                 <Image
                   src="/first photoshoot/Tenko Tattoo (11).jpg"
