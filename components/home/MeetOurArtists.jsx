@@ -14,13 +14,13 @@ export default function MeetOurArtists() {
       name: "Abbie",
       instagram: "https://www.instagram.com/abbieellistattoo/",
       portfolio: "/artists/abbie",
-      picture: "/abbie/Abbie - 1.jpg",
+      picture: "/abbie/Abbie - 2.jpg",
     },
     {
       name: "Aaron",
       instagram: "https://www.instagram.com/rdewdletattoos/",
       portfolio: "/artists/aaron",
-      picture: "/aaron/Aaron - 1.jpg",
+      picture: "/aaron/Aaron - 2.jpg",
     },
     {
       name: "Sian",
