@@ -7,7 +7,7 @@ export const DataArtist = [
       <>
         Doris has been tattooing for 8 years, after deciding she wanted nothing
         to do with takeaway shifts or parental expectations. In true Doris
-        fashion, she went and did everything she was told not to—and built a
+        fashion, she went and did everything she was told not to — and built a
         career out of it.
         <br />
         <br />
@@ -20,12 +20,12 @@ export const DataArtist = [
         <br />
         Outside the studio, she’s either deep into Baldur’s Gate or soaking up
         every moment with her baby. When asked to share something random about
-        herself, she said it’s basically just “work and baby” these days—so if
+        herself, she said it’s basically just “work and baby” these days — so if
         you’re a client reading this and you’ve ever been surprised by something
         about her, let her know.
         <br />
         <br />
-        In the studio, Doris brings solid mum energy—calm, capable, and always
+        In the studio, Doris brings solid mum energy — calm, capable, and always
         looking after everyone else while still managing to smash out some
         serious colour work.
       </>
@@ -97,14 +97,15 @@ export const DataArtist = [
     description: (
       <>
         Aaron’s been tattooing for around 2.5 years, after getting into it out
-        of pure spite—he was once told he couldn’t do art, so he went and proved
-        them wrong. He’s always been one to doodle (or dewdle, as his name
-        suggests), and tattooing gave him the perfect outlet to run with it.
+        of pure spite — he was once told he couldn’t do art, so he went and
+        proved them wrong. He’s always been one to doodle (or dewdle, as his
+        name suggests), and tattooing gave him the perfect outlet to run with
+        it.
         <br />
         <br />
         His style leans towards traditional-ish-inspired blackwork, with a love
         for bold lines, strong contrast, and the occasional bat. While his work
-        often heads into the morbid, Aaron himself is anything but—he’s the
+        often heads into the morbid, Aaron himself is anything but — he’s the
         loud, energetic one in the studio who somehow still manages to make his
         tattoos feel clean, solid, and balanced. He currently looks to
         experiment more with opaque greys in his blackwork, pushing his style
@@ -115,7 +116,7 @@ export const DataArtist = [
         lives on a farm and assists with lambing season... in his words, “I fist
         sheep.” We’ll leave it at that.
         <br />
-        <br /> Loud, lively, and always up for a laugh—Aaron brings big energy
+        <br /> Loud, lively, and always up for a laugh — Aaron brings big energy
         to Tenko, and clients love him for it.
       </>
     ),

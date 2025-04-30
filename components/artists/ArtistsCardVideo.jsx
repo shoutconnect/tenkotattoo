@@ -13,7 +13,6 @@ export default function ArtistsCardVideo({ artist, instagram }) {
             loop
             muted
             preload="auto"
-            priority
             // className="max-md:h-[400px] max-md:w-full w-[700px] xl:w-[800px] h-full xl:h-[650px] object-cover my-transition group-hover:scale-110"
             className="object-cover my-transition"
             playsInline
