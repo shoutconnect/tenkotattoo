@@ -32,7 +32,6 @@ export default function Tabs() {
       },
     },
   ];
-  image.png;
 
   return (
     <div className=" margin-y relative z-10">
