@@ -57,9 +57,9 @@ export default function LaserRemoval() {
           className="-z-[1] absolute absolute-center w-full min-w-[1000px] opacity-50"
         />
       </div>
-      {/*<Features />
+      <Features />
       <Tabs />
-      <HowWorks /> */}
+      <HowWorks />
 
       <div className="margin-x mb-20">
         <p className="text-center mb-10">

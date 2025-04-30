@@ -5,15 +5,16 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 export default function ArtistsCardVideo({ artist, instagram }) {
   return (
-    <section className="group margin-y">
+    <section className="margin-y">
       <div className="flex max-md:flex-col gap-16 xl:gap-20">
-        <div className="overflow-hidden">
+        <div className=" aspect-[9/16] w-full max-w-[1080px] max-h-[1920px]">
           <video
             autoPlay
             loop
             muted
             preload="auto"
-            className="max-md:h-[400px] max-md:w-full w-[700px] xl:w-[800px] h-full xl:h-[650px] object-cover my-transition group-hover:scale-110"
+            // className="max-md:h-[400px] max-md:w-full w-[700px] xl:w-[800px] h-full xl:h-[650px] object-cover my-transition group-hover:scale-110"
+            className="object-cover my-transition"
             playsInline
           >
             <source src={artist.video} type="video/mp4" />

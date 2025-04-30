@@ -1,9 +1,11 @@
 import PageHeader from "@/components/UI/PageHeader";
 import ArtistsCard from "@/components/artists/Artists";
 import ArtistsCardVideo from "@/components/artists/ArtistsCardVideo";
+import ArtistsWorkTime from "@/components/artists/ArtistsWorkTime";
 import CTA from "@/components/home/CTA";
 import { DataArtist } from "@/data/DataArtist";
 import { StudioImg } from "@/data/DataImages";
+import DataWorkTime from "@/data/DataWorkTime";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 import { ArrowUpLeftIcon, ArrowUpRightIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
@@ -45,21 +47,9 @@ export default function Artists() {
           </div>
         </>
         image={StudioImg[2]}
-      />{" "}
-      <section className="margin-x margin-y space-y-10">
-        <h4>
-          At Tenko Tattoo, we pride ourselves on the diverse talents and unique
-          styles of our artists.
-        </h4>
-        <p>
-          Each artist brings their own creative flair and expertise, ensuring
-          that every tattoo is a work of art tailored to the individual. Whether
-          you’re looking for intricate designs, bold statements, or delicate
-          details, our skilled artists are dedicated to bringing your vision to
-          life with professionalism and passion. Explore our artists' profiles
-          to discover the perfect match for your next tattoo.
-        </p>{" "}
-      </section>
+      />
+
+      <ArtistsWorkTime data={DataWorkTime} />
       <section className="relative flex flex-col items-center w-auto px-20 text-center">
         <h1 className="relative z-10">
           Meet <br />
@@ -83,6 +73,7 @@ export default function Artists() {
           className="absolute absolute-center -z-1 h-80 max-sm:h-64 w-auto object-cover opacity-10 select-none"
         />
       </section>
+      <section>{/* Work time */}</section>
       <section className="relative margin-y">
         <Image
           src="/Bg Brush.svg"

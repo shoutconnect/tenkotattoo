@@ -31,7 +31,7 @@ export default function Takey() {
       {/* <ArtistsVideo artist={DataArtist[2]} /> */}
       <div className="margin-x mt-32">
         {" "}
-        <ArtistsCardVideo artist={DataArtist[2]} instagram />
+        <ArtistsCardVideo artist={DataArtist[4]} instagram />
       </div>{" "}
       <Script
         src="https://static.elfsight.com/platform/platform.js"

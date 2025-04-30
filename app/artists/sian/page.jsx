@@ -31,7 +31,7 @@ export default function Sian() {
       {/* <ArtistsVideo artist={DataArtist[1]} /> */}
       <div className="margin-x mt-32">
         {" "}
-        <ArtistsCardVideo artist={DataArtist[1]} instagram />
+        <ArtistsCardVideo artist={DataArtist[3]} instagram />
       </div>
       <Script
         src="https://static.elfsight.com/platform/platform.js"
