@@ -108,6 +108,38 @@ export default function Aftercare() {
         },
       ],
     },
+    {
+      id: "tabs-with-underline-3",
+      step: "Laser Removal",
+      items: [
+        {
+          title: "First 24 Hrs",
+          description:
+            "Avoid excessive touching, rubbing, or picking at the treated skin. Remove bandage when home. Keep the area dry and avoid hot showers or saunas.",
+        },
+        {
+          title: "Cleaning",
+          description:
+            "After 24 hours, gently clean the area with lukewarm water. Pat dry with a clean, unused towel—do not rub.",
+        },
+
+        {
+          title: "Moisturising",
+          description:
+            "Apply a thin layer of recommended aftercare cream (e.g., Aloe Vera gel). For the first 3-4 days, use 1% hydrocortisone cream to help with irritation. Avoid excessive moisturising.",
+        },
+        {
+          title: "Protection",
+          description:
+            "Avoid direct sun exposure; always apply SPF 50+ on the treated area if exposed to sunlight. Avoid swimming pools, hot tubs, and excessive sweating for at least 2 weeks.",
+        },
+        {
+          title: "Healing Process",
+          description:
+            "Mild blistering, redness, and scabbing are normal; do not pick at scabs. If necessary, cover the area with a breathable, non-stick bandage.",
+        },
+      ],
+    },
   ];
 
   return (
@@ -144,7 +176,7 @@ export default function Aftercare() {
         </section>
       </div>
       <section className="margin-x">
-        <nav className="grid grid-cols-2" aria-label="Tabs" role="tablist">
+        <nav className="grid grid-cols-3" aria-label="Tabs" role="tablist">
           <button
             type="button"
             className="justify-center hs-tab-active:font-semibold border-neutral-800 hs-tab-active:border-[#ed028c] hs-tab-active:text-[#ed028c] py-4 px-1 inline-flex items-center gap-x-2 border-b-4 text-sm whitespace-nowrap text-neutral-500 hover:text-[#ed028c] focus:outline-none focus:text-[#ed028c] disabled:opacity-50 disabled:pointer-events-none active"
@@ -164,7 +196,17 @@ export default function Aftercare() {
             role="tab"
           >
             <h6 className="hs-tab-active:text-tenko">{steps[1].step}</h6>
-          </button>
+          </button>{" "}
+          <button
+            type="button"
+            className="justify-center hs-tab-active:font-semibold border-neutral-800 hs-tab-active:border-[#ed028c] hs-tab-active:text-[#ed028c] py-4 px-1 inline-flex items-center gap-x-2 border-b-4 text-sm whitespace-nowrap text-neutral-500 hover:text-[#ed028c] focus:outline-none focus:text-[#ed028c] disabled:opacity-50 disabled:pointer-events-none"
+            id="tabs-with-underline-item-3"
+            data-hs-tab="#tabs-with-underline-3"
+            aria-controls="tabs-with-underline-3"
+            role="tab"
+          >
+            <h6 className="hs-tab-active:text-tenko">{steps[2].step}</h6>
+          </button>{" "}
         </nav>
         <div className="mt-16">
           <div
@@ -172,7 +214,7 @@ export default function Aftercare() {
             role="tabpanel"
             aria-labelledby="tabs-with-underline-item-1"
           >
-            <div className="max-lg:flex max-lg:flex-col-reverse lg:grid lg:grid-cols-4 gap-12">
+            <div className="flex flex-col-reverse gap-12">
               <div className="col-span-3 flex flex-col">
                 {steps[0].items.map((item, i) => (
                   <div
@@ -193,13 +235,13 @@ export default function Aftercare() {
                   </div>
                 ))}
               </div>{" "}
-              <div className="bg-neutral-900 col-span-1 overflow-hidden max-lg:h-48">
+              <div className="bg-neutral-900 col-span-1 overflow-hidden h-48 sm:h-56">
                 <Image
                   src="/first photoshoot/Tenko Tattoo (12).jpg"
                   alt="Tattoo aftercare"
                   width={1000}
                   height={1000}
-                  className="h-full w-full object-cover opacity-50 md:scale-125"
+                  className="h-48 sm:h-56 w-full object-cover opacity-50 md:scale-125"
                 />
               </div>
             </div>
@@ -210,15 +252,15 @@ export default function Aftercare() {
             role="tabpanel"
             aria-labelledby="tabs-with-underline-item-2"
           >
-            <div className="max-lg:flex max-lg:flex-col lg:grid lg:grid-cols-4 gap-12">
+            <div className="flex flex-col gap-12">
               {" "}
-              <div className="bg-neutral-900 col-span-1 overflow-hidden max-lg:h-48">
+              <div className="bg-neutral-900 col-span-1 overflow-hidden h-48 sm:h-56">
                 <Image
                   src="/first photoshoot/Tenko Tattoo (15).jpg"
                   alt="Tattoo aftercare"
                   width={1000}
                   height={1000}
-                  className="h-full w-full object-cover opacity-50 md:scale-125"
+                  className="h-48 sm:h-56 w-full object-cover opacity-50 md:scale-125"
                 />
               </div>
               <div className="col-span-3 flex flex-col">
@@ -241,6 +283,43 @@ export default function Aftercare() {
                   </div>
                 ))}
               </div>{" "}
+            </div>
+          </div>
+          <div
+            id="tabs-with-underline-3"
+            role="tabpanel"
+            aria-labelledby="tabs-with-underline-item-3"
+          >
+            <div className="flex flex-col-reverse gap-12">
+              <div className="col-span-3 flex flex-col">
+                {steps[2].items.map((item, i) => (
+                  <div
+                    key={i}
+                    className={`group flex flex-col items-start gap-2 p-6  ${
+                      i % 2 === 0 ? "" : "bg-neutral-300/40"
+                    }`}
+                  >
+                    <div
+                      className={`px-4 py-1 ${
+                        i % 2 === 0 ? "bg-neutral-800" : "bg-[#ed028c]"
+                      }`}
+                    >
+                      <h6 className=" text-white">{item.title}</h6>
+                    </div>
+
+                    <p className="-mt-1">{item.description}</p>
+                  </div>
+                ))}
+              </div>{" "}
+              <div className="bg-neutral-900 col-span-1 overflow-hidden h-48 sm:h-56">
+                <Image
+                  src="/first photoshoot/Tenko Tattoo (11).jpg"
+                  alt="Tattoo aftercare"
+                  width={1000}
+                  height={1000}
+                  className="h-48 sm:h-56 w-full object-cover opacity-50 md:scale-125"
+                />
+              </div>
             </div>
           </div>
         </div>

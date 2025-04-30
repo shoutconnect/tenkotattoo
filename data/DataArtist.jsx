@@ -201,7 +201,7 @@ export const DataArtist = [
     facebook: "/",
     facebookURL: "/",
     instagram: "@takeytattoo.uk",
-    instagramURL: "https://www.instagram.com/takeytattoo.uk/",
+    instagramURL: "https://www.instagram.com/takeytattoo",
     phone: "/",
     email: "/",
     tags: ["Fine Line", "Oriental", "Calligraphy"],

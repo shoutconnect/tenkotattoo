@@ -8,9 +8,9 @@ export default function Tabs() {
       id: "tabs-with-underline-1",
       step: "Per session",
       price: {
-        small: 30,
+        small: 40,
         medium: 80,
-        large: 100,
+        large: 130,
       },
     },
     {
@@ -111,7 +111,7 @@ export default function Tabs() {
               <h1 className="text-7xl group-hover:text-tenko my-transition">
                 £{steps[0].price.small}
               </h1>
-              <p className="text-sm text-neutral-400 mt-4">
+              <p className="text-sm text-neutral-500 mt-4">
                 £10 per additional 1cm² for small session
               </p>
             </div>{" "}
@@ -122,8 +122,8 @@ export default function Tabs() {
               <h1 className="text-7xl group-hover:text-tenko my-transition">
                 £{steps[0].price.medium}
               </h1>
-              <p className="text-sm text-neutral-400 mt-4">
-                £10 per additional 2cm² for medium session
+              <p className="text-sm text-neutral-500 mt-4">
+                £10 per additional 1cm² for medium session
               </p>
             </div>{" "}
             <div className="md:text-center flex flex-col items-center group ">
@@ -133,7 +133,7 @@ export default function Tabs() {
               <h1 className="text-7xl group-hover:text-tenko my-transition">
                 £{steps[0].price.large}
               </h1>
-              <p className="text-sm text-neutral-400 mt-4">
+              <p className="text-sm text-neutral-500 mt-4">
                 £10 per additional 2cm² for large session
               </p>
             </div>
@@ -165,7 +165,7 @@ export default function Tabs() {
                 <h1 className="text-7xl group-hover:text-tenko my-transition">
                   £{steps[1].price.small}
                 </h1>
-                <p className="text-sm text-neutral-400 mt-4">
+                <p className="text-sm text-neutral-500 mt-4">
                   £10 per additional 1cm² for small session
                 </p>
               </div>{" "}
@@ -176,8 +176,8 @@ export default function Tabs() {
                 <h1 className="text-7xl group-hover:text-tenko my-transition">
                   £{steps[1].price.medium}
                 </h1>
-                <p className="text-sm text-neutral-400 mt-4">
-                  £10 per additional 2cm² for medium session
+                <p className="text-sm text-neutral-500 mt-4">
+                  £10 per additional 1cm² for medium session
                 </p>
               </div>{" "}
               <div className="text-center flex flex-col items-center group ">
@@ -187,7 +187,7 @@ export default function Tabs() {
                 <h1 className="text-7xl group-hover:text-tenko my-transition">
                   £{steps[1].price.large}
                 </h1>
-                <p className="text-sm text-neutral-400 mt-4">
+                <p className="text-sm text-neutral-500 mt-4">
                   £10 per additional 2cm² for large session
                 </p>
               </div>
@@ -223,7 +223,7 @@ export default function Tabs() {
                 <h1 className="text-7xl group-hover:text-tenko my-transition">
                   £{steps[2].price.small}
                 </h1>
-                <p className="text-sm text-neutral-400 mt-4">
+                <p className="text-sm text-neutral-500 mt-4">
                   £10 per additional 1cm² for small session
                 </p>
               </div>{" "}
@@ -234,8 +234,8 @@ export default function Tabs() {
                 <h1 className="text-7xl group-hover:text-tenko my-transition">
                   £{steps[2].price.medium}
                 </h1>
-                <p className="text-sm text-neutral-400 mt-4">
-                  £10 per additional 2cm² for medium session
+                <p className="text-sm text-neutral-500 mt-4">
+                  £10 per additional 1cm² for medium session
                 </p>
               </div>{" "}
               <div className="text-center flex flex-col items-center group ">
@@ -245,7 +245,7 @@ export default function Tabs() {
                 <h1 className="text-7xl group-hover:text-tenko my-transition">
                   £{steps[2].price.large}
                 </h1>
-                <p className="text-sm text-neutral-400 mt-4">
+                <p className="text-sm text-neutral-500 mt-4">
                   £10 per additional 2cm² for large session
                 </p>
               </div>

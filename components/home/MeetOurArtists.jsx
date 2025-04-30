@@ -11,6 +11,18 @@ export default function MeetOurArtists() {
       picture: "/doris/26th May - 4.jpg",
     },
     {
+      name: "Abbie",
+      instagram: "https://www.instagram.com/abbieellistattoo/",
+      portfolio: "/artists/abbie",
+      picture: "/abbie/Abbie - 1.jpg",
+    },
+    {
+      name: "Aaron",
+      instagram: "https://www.instagram.com/rdewdletattoos/",
+      portfolio: "/artists/aaron",
+      picture: "/aaron/Aaron - 1.jpg",
+    },
+    {
       name: "Sian",
       instagram: "https://www.instagram.com/sian.tattoo/",
       portfolio: "/artists/sian",
@@ -18,7 +30,7 @@ export default function MeetOurArtists() {
     },
     {
       name: "Takey",
-      instagram: "https://www.instagram.com/takeytattoo.uk/",
+      instagram: "https://www.instagram.com/takeytattoo/",
       portfolio: "/artists/takey",
       picture: "/takey/26th May - 3.jpg",
     },
@@ -52,7 +64,7 @@ export default function MeetOurArtists() {
         Each of our artists specialise in a unique style. <br />
         Explore their portfolios to find the perfect match for your next tattoo.
       </p>
-      <div className="flex max-lg:flex-col gap-8 items-center justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-center justify-center">
         {artists.map((artist, index) => (
           <div
             key={index}
