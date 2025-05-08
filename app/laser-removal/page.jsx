@@ -1,4 +1,5 @@
 import PageHeader from "@/components/UI/PageHeader";
+import VagaroWidget from "@/components/VagaroWidget";
 import Features from "@/components/getlasered/Features";
 import HowWorks from "@/components/getlasered/HowWorks";
 import Services from "@/components/getlasered/Services";
@@ -44,9 +45,7 @@ export default function LaserRemoval() {
         </>
         image="/first photoshoot/Tenko Tattoo (11).jpg"
       />
-
       <Services />
-
       <div className="relative ">
         <Image
           src="/Bg Brush.svg"
@@ -59,8 +58,10 @@ export default function LaserRemoval() {
       </div>
       <Features />
       <Tabs />
-      <HowWorks />
 
+      <VagaroWidget />
+
+      <HowWorks />
       <div className="margin-x mb-20">
         <p className="text-center mb-10">
           <span className="font-bold">
